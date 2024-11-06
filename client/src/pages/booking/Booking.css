@@ -5,7 +5,7 @@ html {
 h1 {
   text-align: center;
   padding: 1rem;
-  margin: 3rem;
+  margin: 1rem;
   background-color: #36736e;
   box-shadow: 5px 5px 15px 5px #000000;
   border-radius: 10px;
@@ -17,19 +17,24 @@ main {
 }
 
 .card {
-  min-width: 15rem;
+  width: 18rem;
+  height: 80%;
   text-align: center;
   margin: 2rem;
   padding: 1rem;
   box-shadow: 5px 5px 15px 5px #000000;
   background-color: #36736e;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img {
   border-radius: 150px;
   padding: 0.3rem;
-  background-color: aliceblue;
+  background-color: #e8e1d4;
 }
 
 button {
@@ -44,4 +49,5 @@ button:hover {
   color: #e8e1d4;
   background-color: #351e11;
   border-radius: 10px;
+  transition: 0.3s;
 }
