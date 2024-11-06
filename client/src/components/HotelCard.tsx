@@ -18,7 +18,7 @@ function HotelCard() {
         <h2>{hotelCard.name}</h2>
         <p>{hotelCard.description}</p>
         <p>{hotelCard.cost}</p>
-        <button>Reservez</button>
+        <button type="button">Reservez</button>
       </article>
     </>
   );

@@ -18,7 +18,7 @@ function RestaurantCard() {
         <h2>{restaurantCard.name}</h2>
         <p>{restaurantCard.description}</p>
         <p>{restaurantCard.cost}</p>
-        <button>Reservez</button>
+        <button type="button">Reservez</button>
       </article>
     </>
   );
