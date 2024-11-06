@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  background-color: #36736e;
+  font-size: 1.1rem;
+  color: #e8e1d4;
+}
+
+.logoNav {
+  width: 12rem;
+  height: 9rem;
+  margin-right: 15rem;
+}
+
+.linksNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45rem;
+  list-style: none;
+}
