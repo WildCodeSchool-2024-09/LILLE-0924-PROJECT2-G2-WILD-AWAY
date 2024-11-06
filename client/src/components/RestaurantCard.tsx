@@ -18,9 +18,7 @@ function RestaurantCard() {
         <h2>{restaurantCard.name}</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, minus
-          doloremque tempora suscipit ullam doloribus sit pariatur. Quasi,
-          accusamus? Omnis animi deleniti maiores doloremque fugit dolore non
-          alias cumque amet.
+          doloremque tempora.
         </p>
         <p>{restaurantCard.cost}</p>
         <button type="button">Reservez</button>
