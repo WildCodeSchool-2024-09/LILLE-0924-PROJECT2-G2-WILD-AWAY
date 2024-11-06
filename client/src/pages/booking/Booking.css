@@ -1,0 +1,30 @@
+html {
+  background-image: url(./background.jpg);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+  margin: 3rem;
+  background-color: rgba(78, 21, 4, 0.9);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: 5px 5px 15px 5px #000000;
+  background-color: rgba(78, 21, 4, 0.9);
+}
+
+img {
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: aliceblue;
+}
