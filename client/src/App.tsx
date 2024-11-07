@@ -1,5 +1,4 @@
 import "./App.css";
-import Booking from "./pages/booking/Booking";
 
 import NavBar from "./components/NavBar/NavBar";
 
