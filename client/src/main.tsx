@@ -24,8 +24,8 @@ const router = createBrowserRouter([
     element: <App />, // Renders the App component for the home page
   },
   {
-    path: "/", // The root path
-    element: <App />, // Sera le router de la page 2
+    path: "/about-us", // The root path
+    // element: <AboutUs />, // Sera le router de la page 2
   },
   {
     path: "/", // The root path

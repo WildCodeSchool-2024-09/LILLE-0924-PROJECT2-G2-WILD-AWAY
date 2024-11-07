@@ -1,4 +1,5 @@
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -8,10 +9,13 @@ function NavBar() {
         className="logo-nav"
         alt="logo de Wild Away"
       />
-      <div className="links-nav">
-        <a href="https://www.google.com/maps?authuser=0">Home</a>
-        <a href="https://www.google.com/maps?authuser=0">About us</a>
-      </div>
+      <Link to="/" className="links-nav">
+        Home{" "}
+      </Link>
+      <Link to="AboutUs" className="links-nav">
+        {" "}
+        About us{" "}
+      </Link>
     </nav>
   );
 }
