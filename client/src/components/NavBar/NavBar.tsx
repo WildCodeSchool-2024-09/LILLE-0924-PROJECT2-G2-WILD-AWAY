@@ -8,10 +8,10 @@ function NavBar() {
         className="logoNav"
         alt="logo de Wild Away"
       />
-      <ul className="linksNav">
-        <li>Home</li>
-        <li>About us</li>
-      </ul>
+      <div className="linksNav">
+        <a href="https://www.google.com/maps?authuser=0">Home</a>
+        <a href="https://www.google.com/maps?authuser=0">About us</a>
+      </div>
     </nav>
   );
 }

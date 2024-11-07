@@ -8,6 +8,9 @@ nav {
   background-color: #36736e;
   font-size: 1.1rem;
   color: #e8e1d4;
+  justify-content: space-between;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .logoNav {
@@ -17,9 +20,15 @@ nav {
 }
 
 .linksNav {
+  margin-left: 8rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 45rem;
   list-style: none;
+  font-size: 1.75rem;
+}
+
+a {
+  text-decoration: none;
+  color: #e8e1d4;
 }
