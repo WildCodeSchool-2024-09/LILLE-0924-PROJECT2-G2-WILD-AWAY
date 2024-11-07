@@ -2,13 +2,13 @@ import "./App.css";
 
 import NavBar from "./components/NavBar/NavBar";
 
-import Booking from "./pages/booking/Booking";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
       <NavBar />
-      <Booking />
+      <Outlet />
     </>
   );
 }

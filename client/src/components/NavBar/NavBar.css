@@ -5,27 +5,26 @@
 
 nav {
   display: flex;
+  width: 100%;
   background-color: #36736e;
   font-size: 1.1rem;
   color: #e8e1d4;
   justify-content: space-between;
-  padding-right: 5%;
-  padding-left: 5%;
+  padding-right: 1%;
+  padding-left: 1%;
 }
 
 .logo-nav {
   width: 12rem;
   height: 9rem;
-  margin-right: 15rem;
 }
 
 .links-nav {
-  margin-left: 8rem;
+  margin-right: 5rem;
   display: flex;
   align-items: center;
-  gap: 45rem;
   list-style: none;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 a {
