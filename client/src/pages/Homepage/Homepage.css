@@ -28,12 +28,12 @@ p {
   font-size: 1.5rem;
 }
 
-.map-container {
-  border: black solid 2px;
-  padding: 20%;
-  margin-left: 20%;
-  margin-right: 20%;
-}
+/* .map-container {
+    border: black solid 2px;
+    padding: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+  } */
 .icon-container {
   height: 150px;
   width: 150px;

@@ -1,3 +1,4 @@
+import MapElement from "../../components/Map";
 import "./Homepage.css";
 function Homepage() {
   return (
@@ -23,7 +24,10 @@ function Homepage() {
       <h2>
         Sélectionnne la destination de tes rêves en cliquant sur un pays !
       </h2>
-      <div className="map-container" />
+      <div className="map-container">
+        {" "}
+        <MapElement />
+      </div>
     </main>
   );
 }
