@@ -25,11 +25,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/", // The root path
-    element: <App />, // Renders the App component for the home page
+    element: <App />, // Sera le router de la page 2
   },
   {
     path: "/", // The root path
-    element: <App />, // Renders the App component for the home page
+    element: <App />, // Sera le router de la page 3
   },
 ]);
 
