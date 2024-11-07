@@ -13,13 +13,13 @@ nav {
   padding-left: 5%;
 }
 
-.logoNav {
+.logo-nav {
   width: 12rem;
   height: 9rem;
   margin-right: 15rem;
 }
 
-.linksNav {
+.links-nav {
   margin-left: 8rem;
   display: flex;
   align-items: center;
