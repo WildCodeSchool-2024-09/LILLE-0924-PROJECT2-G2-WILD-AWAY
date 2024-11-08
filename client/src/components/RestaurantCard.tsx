@@ -14,6 +14,7 @@ function RestaurantCard() {
           alt={restaurantCard.name}
           height="200px"
           width="200px"
+          className="booking-card-img"
         />
         <h2>{restaurantCard.name}</h2>
         <p>

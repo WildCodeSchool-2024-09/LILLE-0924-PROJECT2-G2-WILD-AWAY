@@ -5,7 +5,7 @@ html {
   background-color: #e8e1d4;
 }
 
-main {
+.booking-main {
   display: flex;
   justify-content: center;
   font-family: "Anton SC", sans-serif;
@@ -39,7 +39,7 @@ h2 {
   align-items: center;
 }
 
-img {
+.booking-card-img {
   border-radius: 100px;
   padding: 0.3rem;
   background-color: #e8e1d4;

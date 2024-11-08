@@ -8,6 +8,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 // Import the main app component
 import App from "./App";
 import AboutUs from "./pages/AboutUs/AboutUs";
+import Homepage from "./pages/Homepage/Homepage";
 import Booking from "./pages/booking/Booking";
 
 // Import additional components for new routes
@@ -25,10 +26,10 @@ const router = createBrowserRouter([
     path: "/", // The root path
     element: <App />, // Renders the App component for the home page
     children: [
-      // {
-      //   path: "/", // The root path
-      //   element: <HomePage />, // Sera le router de la page 2
-      // },
+      {
+        path: "/", // The root path
+        element: <Homepage />, // Sera le router de la page 2
+      },
       {
         path: "/booking", // The root path
         element: <Booking />, // Sera le router de la page 2

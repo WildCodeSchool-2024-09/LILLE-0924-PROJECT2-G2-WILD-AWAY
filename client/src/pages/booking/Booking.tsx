@@ -7,7 +7,7 @@ function Booking() {
     <>
       <h1>Nom du Pays</h1>
 
-      <main>
+      <main className="booking-main">
         <section>
           <HotelCard />
         </section>

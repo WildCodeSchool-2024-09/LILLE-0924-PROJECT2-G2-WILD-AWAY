@@ -14,6 +14,7 @@ function HotelCard() {
           alt={hotelCard.name}
           height="200px"
           width="200px"
+          className="booking-card-img"
         />
         <h2>{hotelCard.name}</h2>
         <p>{hotelCard.description}</p>
