@@ -1,9 +1,14 @@
 import "./App.css";
-import Homepage from "./pages/Homepage/Homepage.tsx";
+import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
+import NavBar from "./components/NavBar/NavBar";
+
 function App() {
   return (
     <>
-      <Homepage />
+      <NavBar />
+      <Outlet />
+      <Footer />
     </>
   );
 }
