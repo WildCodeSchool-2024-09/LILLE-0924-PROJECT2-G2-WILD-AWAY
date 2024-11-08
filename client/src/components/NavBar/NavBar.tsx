@@ -5,13 +5,13 @@ function NavBar() {
     <nav>
       <img
         src="./public/logo.png"
-        className="logoNav"
+        className="logo-nav"
         alt="logo de Wild Away"
       />
-      <ul className="linksNav">
-        <li>Home</li>
-        <li>About us</li>
-      </ul>
+      <div className="links-nav">
+        <a href="https://www.google.com/maps?authuser=0">Home</a>
+        <a href="https://www.google.com/maps?authuser=0">About us</a>
+      </div>
     </nav>
   );
 }
