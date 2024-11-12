@@ -38,6 +38,10 @@ const router = createBrowserRouter([
         path: "/about-us", // The root path
         element: <AboutUs />, // Sera le router de la page 2
       },
+      {
+        path: "/city/:cityId",
+        element: <Booking />,
+      },
     ],
   },
 ]);
