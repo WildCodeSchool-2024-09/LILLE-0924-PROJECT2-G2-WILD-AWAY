@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav>
       <img
-        src="./public/logo.png"
+        src="/logo.png"
         className="logo-nav"
         alt="logo de Wild Away"
       />
