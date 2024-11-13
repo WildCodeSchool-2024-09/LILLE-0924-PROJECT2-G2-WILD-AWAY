@@ -1,0 +1,472 @@
+{
+  "items": [
+    {
+      "city": "Lille",
+      "hotels": [
+        {
+          "name": "Hôtel Barrière Lille",
+          "description": "Un hôtel 5 étoiles moderne situé près du centre de Lille avec un casino et un spa.",
+          "price_per_night": 200,
+          "image_url": "https://example.com/hotel_barriere_lille.jpg"
+        },
+        {
+          "name": "Best Western Premier Why Hotel",
+          "description": "Un hôtel élégant avec des chambres confortables et un restaurant branché.",
+          "price_per_night": 140,
+          "image_url": "https://example.com/best_western_why_hotel.jpg"
+        }
+      ]
+    },
+    {
+      "city": "Lille",
+      "restaurants": [
+        {
+          "name": "La Table du Clarance",
+          "description": "Restaurant étoilé Michelin servant des plats gastronomiques français.",
+          "average_price_per_person": 90,
+          "image_url": "https://example.com/la_table_du_clarance.jpg"
+        },
+        {
+          "name": "Rouge Barre",
+          "description": "Restaurant créatif proposant une cuisine française inventive.",
+          "average_price_per_person": 50,
+          "image_url": "https://example.com/rouge_barre.jpg"
+        }
+      ]
+    },
+    {
+      "city": "Rome",
+      "hotels": [
+        {
+          "name": "Hotel de Russie",
+          "description": "Hôtel de luxe avec un magnifique jardin et une vue imprenable sur Rome.",
+          "price_per_night": 600,
+          "image_url": "https://example.com/hotel_de_russie.jpg"
+        },
+        {
+          "name": "The St. Regis Rome",
+          "description": "Hôtel historique offrant des services haut de gamme et un cadre élégant.",
+          "price_per_night": 500,
+          "image_url": "https://example.com/st_regis_rome.jpg"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Roscioli",
+          "description": "Un restaurant réputé pour ses charcuteries et ses plats italiens classiques.",
+          "average_price_per_person": 70,
+          "image_url": "https://example.com/roscioli.jpg"
+        },
+        {
+          "name": "Da Enzo al 29",
+          "description": "Trattoria romaine authentique servant des pâtes et des plats traditionnels.",
+          "average_price_per_person": 40,
+          "image_url": "https://example.com/da_enzo.jpg"
+        }
+      ]
+    },
+    {
+      "city": "New York",
+      "hotels": [
+        {
+          "name": "The Plaza Hotel",
+          "description": "Hôtel emblématique de New York situé près de Central Park.",
+          "price_per_night": 750,
+          "image_url": "https://example.com/the_plaza.jpg"
+        },
+        {
+          "name": "Four Seasons Hotel New York Downtown",
+          "description": "Hôtel de luxe moderne avec un spa et un restaurant réputé.",
+          "price_per_night": 600,
+          "image_url": "https://example.com/four_seasons_ny.jpg"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Le Bernardin",
+          "description": "Restaurant étoilé Michelin, spécialisé dans les fruits de mer français.",
+          "average_price_per_person": 150,
+          "image_url": "https://example.com/le_bernardin.jpg"
+        },
+        {
+          "name": "Katz's Delicatessen",
+          "description": "Deli emblématique connu pour ses sandwichs au pastrami.",
+          "average_price_per_person": 25,
+          "image_url": "https://example.com/katz_deli.jpg"
+        }
+      ]
+    },
+    {
+      "city": "Sydney",
+      "hotels": [
+        {
+          "name": "Park Hyatt Sydney",
+          "description": "Hôtel de luxe offrant une vue imprenable sur l'Opéra de Sydney et le Harbour Bridge.",
+          "price_per_night": 800,
+          "image_url": "https://images.unsplash.com/photo-1572038083534-12e3e9fdb4d1"
+        },
+        {
+          "name": "The Langham Sydney",
+          "description": "Un hôtel élégant avec un spa de renommée mondiale et des chambres luxueuses.",
+          "price_per_night": 650,
+          "image_url": "https://images.unsplash.com/photo-1584056679001-800d7b5ff6a4"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Quay",
+          "description": "Restaurant gastronomique avec vue panoramique sur le port de Sydney, proposant des plats innovants.",
+          "average_price_per_person": 180,
+          "image_url": "https://images.unsplash.com/photo-1553621042-f6e147245754"
+        },
+        {
+          "name": "Bennelong",
+          "description": "Restaurant moderne à l'intérieur de l'Opéra de Sydney, servant une cuisine australienne raffinée.",
+          "average_price_per_person": 160,
+          "image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        }
+      ]
+    },
+    {
+      "city": "Vancouver",
+      "hotels": [
+        {
+          "name": "Fairmont Pacific Rim",
+          "description": "Hôtel moderne avec vue sur l'océan et un spa luxueux au cœur de Vancouver.",
+          "price_per_night": 500,
+          "image_url": "https://images.unsplash.com/photo-1560932688-bd7bc8571b22"
+        },
+        {
+          "name": "Rosewood Hotel Georgia",
+          "description": "Hôtel historique offrant un luxe raffiné et un serviceexceptionnel.",
+          "price_per_night": 450,
+          "image_url": "https://images.unsplash.com/photo-1506029031112-93fe1a8d0b6b"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Hawksworth Restaurant",
+          "description": "Un restaurant chic servant une cuisine canadienne moderne et inventive.",
+          "average_price_per_person": 90,
+          "image_url": "https://images.unsplash.com/photo-1551446591-142875a901a1"
+        },
+        {
+          "name": "Miku Vancouver",
+          "description": "Restaurant japonais spécialisé dans le sushi Aburi, avec vue sur l'eau.",
+          "average_price_per_person": 60,
+          "image_url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24"
+        }
+      ]
+    },
+    {
+      "city": "Seoul",
+      "hotels": [
+        {
+          "name": "The Shilla Seoul",
+          "description": "Hôtel de luxe offrant une vue magnifique sur la ville et des installations haut de gamme.",
+          "price_per_night": 400,
+          "image_url": "https://images.unsplash.com/photo-1537894860364-1202f380e16d"
+        },
+        {
+          "name": "Four Seasons Hotel Seoul",
+          "description": "Un hôtel 5 étoiles au cœur de Séoul, combinant luxemoderne et tradition coréenne.",
+          "price_per_night": 500,
+          "image_url": "https://images.unsplash.com/photo-1534415626089-7058d80c2d4b"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Jungsik",
+          "description": "Restaurant gastronomique proposant une cuisine coréenne moderne et élégante.",
+          "average_price_per_person": 130,
+          "image_url": "https://images.unsplash.com/photo-1555992336-03a23c5e0d20"
+        },
+        {
+          "name": "Mingles",
+          "description": "Un restaurant étoilé Michelin, mélangeant cuisine coréenne traditionnelle et influences modernes.",
+          "average_price_per_person": 110,
+          "image_url": "https://images.unsplash.com/photo-1551024601-bec78aea704b"
+        }
+      ]
+    },
+    {
+      "city": "Rio de Janeiro",
+      "hotels": [
+        {
+          "name": "Belmond Copacabana Palace",
+          "description": "Hôtel de luxe emblématique avec vue sur la plage de Copacabana.",
+          "price_per_night": 400,
+          "image_url": "https://images.unsplash.com/photo-1569443693539-175ea9f007e8"
+        },
+        {
+          "name": "Hotel Fasano Rio de Janeiro",
+          "description": "Hôtel design offrant une vue panoramique sur Ipanema et le Pain de Sucre.",
+          "price_per_night": 350,
+          "image_url": "https://images.unsplash.com/photo-1548786812-f894dd4a25a0"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Oro",
+          "description": "Restaurant gastronomique primé servant des plats créatifs de la cuisine brésilienne.",
+          "average_price_per_person": 100,
+          "image_url": "https://images.unsplash.com/photo-1598514982370-e7a00cbe0e6c"
+        },
+        {
+          "name": "Aprazível",
+          "description": "Restaurant en plein air situé sur les hauteurs de Santa Teresa, offrant une vue imprenable sur la ville.",
+          "average_price_per_person": 70,
+          "image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        }
+      ]
+    },
+    {
+      "city": "Rabat",
+      "hotels": [
+        {
+          "name": "Sofitel Rabat Jardin des Roses",
+          "description": "Hôtel élégant avec de magnifiques jardins et un spa de luxe.",
+          "price_per_night": 250,
+          "image_url": "https://images.unsplash.com/photo-1589656317221-04e69d5900c5"
+        },
+        {
+          "name": "La Tour Hassan Palace",
+          "description": "Un hôtel historique 5 étoiles offrant un mélange de tradition marocaine et de luxe moderne.",
+          "price_per_night": 300,
+          "image_url": "https://images.unsplash.com/photo-1542062379-d2a478c0e6f0"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Le Dhow",
+          "description": "Restaurant flottant sur le fleuve Bouregreg, offrant une cuisine internationale et marocaine.",
+          "average_price_per_person": 50,
+          "image_url": "https://images.unsplash.com/photo-1568051243851-62b10ad29c1c"
+        },
+        {
+          "name": "Dar Zaki",
+          "description": "Restaurant authentique servant des plats marocainstraditionnels dans la médina de Rabat.",
+          "average_price_per_person": 40,
+          "image_url": "https://images.unsplash.com/photo-1607418326228-7ba241e5ba99"
+        }
+      ]
+    },
+    {
+      "city": "Libreville",
+      "hotels": [
+        {
+          "name": "Radisson Blu Okoume Palace Hotel",
+          "description": "Hôtel moderne en bord de mer offrant confort et service haut de gamme.",
+          "price_per_night": 220,
+          "image_url": "https://images.unsplash.com/photo-1535916707207-4d8b847f7a83"
+        },
+        {
+          "name": "Hotel Boulevard",
+          "description": "Hôtel avec vue sur l'océan et restaurant renommé pour sa cuisine locale et internationale.",
+          "price_per_night": 180,
+          "image_url": "https://images.unsplash.com/photo-1517849845537-4d257902454a"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "L'Odika",
+          "description": "Restaurant élégant proposant une cuisine gabonaisemoderne et raffinée.",
+          "average_price_per_person": 45,
+          "image_url": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc"
+        },
+        {
+          "name": "La Voile Rouge",
+          "description": "Restaurant en bord de mer offrant une vue splendide et une cuisine internationale.",
+          "average_price_per_person": 60,
+          "image_url": "https://images.unsplash.com/photo-1578848876044-8b585ae0d847"
+        }
+      ]
+    },
+    {
+      "city": "Qatar",
+      "hotels": [
+        {
+          "name": "The Ritz-Carlton, Doha",
+          "description": "Hôtel de luxe avec une vue sur la mer et des installations de spa haut de gamme.",
+          "price_per_night": 500,
+          "image_url": "https://images.unsplash.com/photo-1567875491049-7b3e925c007e"
+        },
+        {
+          "name": "Mandarin Oriental, Doha",
+          "description": "Hôtel raffiné au cœur de Doha, offrant un mélange de luxe contemporain et de tradition.",
+          "price_per_night": 450,
+          "image_url": "https://images.unsplash.com/photo-1541447271504-71b9a5b4b6be"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "IDAM by Alain Ducasse",
+          "description": "Cuisine fusion de luxe avec une vue panoramique sur le musée et la mer.",
+          "average_price_per_person": 120,
+          "image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        },
+        {
+          "name": "Spice Market",
+          "description": "Restaurant inspiré de l'Asie du Sud-Est avec une ambiance chaleureuse et sophistiquée.",
+          "average_price_per_person": 90,
+          "image_url": "https://images.unsplash.com/photo-1519121785971-27f1b81a9982"
+        }
+      ]
+    },
+    {
+      "city": "Moscou",
+      "hotels": [
+        {
+          "name": "Four Seasons Hotel Moscow",
+          "description": "Hôtel de luxe près de la Place Rouge, avec des chambres élégantes et un spa exclusif.",
+          "price_per_night": 600,
+          "image_url": "https://images.unsplash.com/photo-1606402180937-ff3f262e8b1c"
+        },
+        {
+          "name": "Hotel Metropol Moscow",
+          "description": "Hôtel historique avec une architecture magnifique et une ambiance de l'époque tsariste.",
+          "price_per_night": 350,
+          "image_url": "https://images.unsplash.com/photo-1555563490-18b65cdb0a94"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "White Rabbit",
+          "description": "Restaurant avec une vue panoramique sur Moscou, proposant une cuisine russe moderne.",
+          "average_price_per_person": 100,
+          "image_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
+        },
+        {
+          "name": "Café Pushkin",
+          "description": "Restaurant historique servant des plats russes classiques dans un cadre élégant.",
+          "average_price_per_person": 80,
+          "image_url": "https://images.unsplash.com/photo-1601911815811-8fdc4e683a50"
+        }
+      ]
+    },
+    {
+      "city": "Tokyo",
+      "hotels": [
+        {
+          "name": "The Peninsula Tokyo",
+          "description": "Hôtel de luxe situé près du palais impérial, avec des chambres spacieuses et un spa raffiné.",
+          "price_per_night": 700,
+          "image_url": "https://images.unsplash.com/photo-1538688525198-f9337bbb7d9d"
+        },
+        {
+          "name": "Park Hyatt Tokyo",
+          "description": "Hôtel emblématique offrant une vue spectaculaire sur la ville et le mont Fuji.",
+          "price_per_night": 650,
+          "image_url": "https://images.unsplash.com/photo-1576618148401-8e56cb6e0354"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Narisawa",
+          "description": "Restaurant étoilé Michelin proposant une cuisine japonaise contemporaine innovante.",
+          "average_price_per_person": 200,
+          "image_url": "https://images.unsplash.com/photo-1553621042-f6e147245754"
+        },
+        {
+          "name": "Sukiyabashi Jiro",
+          "description": "Célèbre restaurant de sushi offrant une expérience gastronomique unique.",
+          "average_price_per_person": 300,
+          "image_url": "https://images.unsplash.com/photo-1575905746582-469f2ffbb26b"
+        }
+      ]
+    },
+    {
+      "city": "Manille",
+      "hotels": [
+        {
+          "name": "Sofitel Philippine Plaza Manila",
+          "description": "Hôtel de luxe en bord de mer avec des installations de spa et une grande piscine.",
+          "price_per_night": 220,
+          "image_url": "https://images.unsplash.com/photo-1572656632419-c0f0806abf55"
+        },
+        {
+          "name": "The Peninsula Manila",
+          "description": "Hôtel 5 étoiles offrant un cadre élégant et des équipements haut de gamme.",
+          "price_per_night": 250,
+          "image_url": "https://images.unsplash.com/photo-1581264110917-e1e33d9e682c"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Antonio's",
+          "description": "Restaurant haut de gamme offrant une cuisine philippine moderne dans un cadre élégant.",
+          "average_price_per_person": 70,
+          "image_url": "https://images.unsplash.com/photo-1533777324565-a040eb52fac1"
+        },
+        {
+          "name": "People's Palace",
+          "description": "Restaurant populaire servant des plats thaïlandais dans un cadre chic et moderne.",
+          "average_price_per_person": 40,
+          "image_url": "https://images.unsplash.com/photo-1568051243851-62b10ad29c1c"
+        }
+      ]
+    },
+    {
+      "city": "Caracas",
+      "hotels": [
+        {
+          "name": "JW Marriott Hotel Caracas",
+          "description": "Hôtel de luxe avec des chambres spacieuses et une piscine extérieure.",
+          "price_per_night": 200,
+          "image_url": "https://images.unsplash.com/photo-1526059969453-ffeaceaf1024"
+        },
+        {
+          "name": "Gran Melia Caracas",
+          "description": "Hôtel offrant des chambres confortables, une piscine et des options de restauration variées.",
+          "price_per_night": 180,
+          "image_url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "La Casa Bistró",
+          "description": "Bistro renommé pour sa cuisine fusion de plats vénézuéliens et internationaux.",
+          "average_price_per_person": 60,
+          "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5"
+        },
+        {
+          "name": "Hajillo's",
+          "description": "Restaurant accueillant servant une cuisine vénézuélienne moderne avec une touche traditionnelle.",
+          "average_price_per_person": 50,
+          "image_url": "https://images.unsplash.com/photo-1551446591-142875a901a1"
+        }
+      ]
+    },
+    {
+      "city": "Oulan-Bator",
+      "hotels": [
+        {
+          "name": "Shangri-La Hotel, Ulaanbaatar",
+          "description": "Hôtel de luxe moderne situé au cœur de la capitale mongole.",
+          "price_per_night": 300,
+          "image_url": "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e"
+        },
+        {
+          "name": "Blue Sky Hotel & Tower",
+          "description": "Un hôtel moderne avec des vues panoramiques sur la ville et des chambres élégantes.",
+          "price_per_night": 180,
+          "image_url": "https://images.unsplash.com/photo-1602219486113-b1d1c5db1b9e"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "The Bull",
+          "description": "Restaurant proposant un mélange de cuisines mongole et internationale.",
+          "average_price_per_person": 40,
+          "image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        },
+        {
+          "name": "Hazara",
+          "description": "Restaurant servant une cuisine indienne et pakistanaise dans une ambiance chaleureuse.",
+          "average_price_per_person": 30,
+          "image_url": "https://images.unsplash.com/photo-1552321554-20927b5c6e7b"
+        }
+      ]
+    }
+  ]
+}
