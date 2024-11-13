@@ -1,24 +1,26 @@
-const hotelCard = {
-  imgSrc: "./src/pages/booking/hotel.jpg",
-  name: "Hotel Name",
-  description: "Hotel Description",
-  cost: "Hotel Cost",
-};
+import { useOutletContext } from "react-router-dom";
 
 function HotelCard() {
+  const bookingData = useOutletContext<{
+    image_url: string;
+    name: string;
+    description: string;
+    price_per_night: string;
+  }>();
+
   return (
     <>
       <article className="card">
         <img
-          src={hotelCard.imgSrc}
-          alt={hotelCard.name}
+          src={bookingData.image_url}
+          alt={bookingData.name}
           height="200px"
           width="200px"
           className="booking-card-img"
         />
-        <h2>{hotelCard.name}</h2>
-        <p>{hotelCard.description}</p>
-        <p>{hotelCard.cost}</p>
+        <h2>{bookingData.name}</h2>
+        <p>{bookingData.description}</p>
+        <p>{bookingData.price_per_night}</p>
         <button type="button">Reservez</button>
       </article>
     </>
