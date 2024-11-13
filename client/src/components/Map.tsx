@@ -93,7 +93,13 @@ function MapElement() {
   const [content, setContent] = useState("");
   return (
     <>
-      <div style={{ position: "relative" }}>
+      <div
+        style={{
+          position: "relative",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
         <div
           style={{
             position: "absolute",
@@ -107,7 +113,12 @@ function MapElement() {
         >
           {content}
         </div>
-        <div style={{ width: "800px", border: "solid" }}>
+        <div
+          style={{
+            width: "800px",
+            border: "solid",
+          }}
+        >
           <ComposableMap>
             <ZoomableGroup zoom={1}>
               <Geographies geography="https://cdn.jsdelivr.net/npm/world-atlas@2/countries-10m.json">

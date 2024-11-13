@@ -4,28 +4,31 @@ body {
   background-color: #e8e1d4;
   font-family: "Playwrite GB S", serif;
 }
-h1 {
+.homepage-title {
   justify-content: center;
   display: flex;
   font-size: 2.5rem;
   text-shadow: grey 2px 2px 2px;
 }
-h2 {
+.homepage-subtitle {
   justify-content: center;
   display: flex;
   font-size: 2rem;
   text-shadow: grey 2px 2px 2px;
 }
-section {
+.homepage-card-container {
   margin: 5%;
   display: flex;
   justify-content: space-evenly;
 }
-img {
+.homepage-card-img {
   width: 100%;
 }
-p {
+.homepage-text {
   font-size: 1.5rem;
+  width: 80%;
+  color: #e8e1d4;
+  font-family: "Anton SC", serif;
 }
 
 /* .map-container {
@@ -46,9 +49,4 @@ p {
   background-color: #36736e;
   border-radius: 5%;
   width: 30%;
-}
-p {
-  width: 80%;
-  color: #e8e1d4;
-  font-family: "Anton SC", serif;
 }
