@@ -1,27 +1,14 @@
-const restaurantCard = {
-  imgSrc: "./src/pages/booking/restaurant.jpg",
-  name: "Restaurant Name",
-  description: "Restaurant Description",
-  cost: "Restaurant Cost",
-};
-
 function RestaurantCard() {
   return (
     <>
       <article className="card">
-        <img
-          src={restaurantCard.imgSrc}
-          alt={restaurantCard.name}
-          height="200px"
-          width="200px"
-        />
-        <h2>{restaurantCard.name}</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, minus
-          doloremque tempora.
-        </p>
-        <p>{restaurantCard.cost}</p>
+        {/* Partie à remplacer par les données de l'API */}
+        <img src="" alt="" height="200px" width="200px" />
+        <h2>Restaurant</h2>
+        <p>Description</p>
+        <p>Prix</p>
         <button type="button">Reservez</button>
+        {/* Partie à remplacer par les données de l'API */}
       </article>
     </>
   );

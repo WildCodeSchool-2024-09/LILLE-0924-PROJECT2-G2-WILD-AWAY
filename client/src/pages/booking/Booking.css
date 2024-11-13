@@ -5,7 +5,7 @@ html {
   background-color: #e8e1d4;
 }
 
-main {
+.booking-main {
   display: flex;
   justify-content: center;
   font-family: "Anton SC", sans-serif;
@@ -17,11 +17,6 @@ h1 {
   margin: 1rem;
   text-shadow: 2px 2px #36736e;
   border-radius: 10px;
-  font-family: "Playwrite GB S", cursive;
-}
-
-h2 {
-  font-family: "Playwrite GB S", cursive;
 }
 
 .card {
@@ -52,6 +47,7 @@ button {
   font-weight: bold;
   border-radius: 100px;
   border: 2px solid #3a1c0b;
+  margin-bottom: 1rem;
 }
 
 button:hover {
