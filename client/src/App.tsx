@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [bookingData, setBookingData] = useState([]);
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <Outlet context={[bookingData]} />
+      <Footer />
     </>
   );
 }
