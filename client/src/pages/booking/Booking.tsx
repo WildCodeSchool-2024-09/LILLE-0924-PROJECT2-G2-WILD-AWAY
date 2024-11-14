@@ -6,7 +6,6 @@ function Booking() {
   return (
     <>
       <h1>Nom du Pays</h1>
-
       <main className="booking-main">
         <section>
           <HotelCard />

@@ -1,6 +1,6 @@
 import "./App.css";
-import { useState } from "react";
-import { useEffect } from "react";
+import Booking from "./pages/booking/Booking";
+import { useState, useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 
