@@ -19,10 +19,7 @@ function RestaurantCard() {
           className="booking-card-img"
         />
         <h2>{bookingData.name}</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, minus
-          doloremque tempora.
-        </p>
+        <p>{bookingData.description}</p>
         <p>{bookingData.average_price_per_person}</p>
         <button type="button">Reservez</button>
       </article>
