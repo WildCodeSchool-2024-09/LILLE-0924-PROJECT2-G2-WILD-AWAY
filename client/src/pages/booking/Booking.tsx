@@ -1,11 +1,14 @@
 import HotelCard from "../../components/HotelCard";
 import RestaurantCard from "../../components/RestaurantCard";
 import "./Booking.css";
+import { useOutletContext } from "react-router-dom";
 
 function Booking() {
+  const bookingData = useOutletContext<{ country: string }>();
+
   return (
     <>
-      <h1>Nom du Pays</h1>
+      <h1>{bookingData.country}</h1>
 
       <main className="booking-main">
         <section>
