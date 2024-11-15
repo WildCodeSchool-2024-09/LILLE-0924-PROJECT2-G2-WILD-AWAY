@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   ComposableMap,
   Geographies,
@@ -6,19 +7,17 @@ import {
   Marker,
   ZoomableGroup,
 } from "react-simple-maps";
-import markers from "./Markers";
+import Markers from "./Markers";
 
 function MapElement() {
+  const navigate = useNavigate();
+  const handlePointClick = (cityId: number) => {
+    navigate(`/booking/${cityId}`);
+  };
   const [content, setContent] = useState("");
   return (
     <>
-      <div
-        style={{
-          position: "relative",
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <div
           style={{
             position: "absolute",
@@ -32,12 +31,7 @@ function MapElement() {
         >
           {content}
         </div>
-        <div
-          style={{
-            width: "800px",
-            border: "solid",
-          }}
-        >
+        <div style={{ width: "800px", border: "solid" }}>
           <ComposableMap>
             <ZoomableGroup zoom={1}>
               <Geographies geography="https://cdn.jsdelivr.net/npm/world-atlas@2/countries-10m.json">
@@ -70,9 +64,16 @@ function MapElement() {
                   ))
                 }
               </Geographies>
-              {markers.map(({ name, coordinates, markerOffSet }) => (
+              {Markers.map(({ name, coordinates, markerOffSet, id }) => (
                 <Marker key={name} coordinates={coordinates}>
-                  <circle r={5} fill="#F00" stroke="#fff" strokeWidth={0.1} />
+                  <circle
+                    r={5}
+                    fill="#F00"
+                    stroke="#fff"
+                    strokeWidth={0.1}
+                    onClick={() => handlePointClick(id)}
+                    onKeyDown={() => handlePointClick(id)}
+                  />
                   <text
                     textAnchor="middle"
                     y={markerOffSet}
