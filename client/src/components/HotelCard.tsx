@@ -1,26 +1,28 @@
-import { useOutletContext } from "react-router-dom";
-
-function HotelCard() {
-  const bookingData = useOutletContext<{
+interface BookingData {
+  hotels: {
     image_url: string;
     name: string;
     description: string;
     price_per_night: string;
-  }>();
+  }[];
+}
+
+function HotelCard({ bookingData }: { bookingData: BookingData }) {
+  const hotels = bookingData.hotels;
 
   return (
     <>
       <article className="card">
         <img
-          src={bookingData.image_url}
-          alt={bookingData.name}
+          src={hotels[0].image_url}
+          alt={hotels[0].name}
           height="200px"
           width="200px"
           className="booking-card-img"
         />
-        <h2>{bookingData.name}</h2>
-        <p>{bookingData.description}</p>
-        <p>{bookingData.price_per_night}</p>
+        <h2>{hotels[0].name}</h2>
+        <p>{hotels[0].description}</p>
+        <p>{hotels[0].price_per_night}€</p>
         <button type="button">Reservez</button>
       </article>
     </>

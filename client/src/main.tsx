@@ -25,8 +25,8 @@ const router = createBrowserRouter([
     element: <App />, // Renders the App component for the home page
     children: [
       {
-        path: "/booking", // The root path
-        element: <Booking />, // Sera le router de la page 2
+        path: "/booking/:id", // The root path
+        element: <Booking />,
       },
     ],
   },
