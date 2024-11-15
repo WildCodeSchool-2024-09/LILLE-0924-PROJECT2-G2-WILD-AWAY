@@ -14,7 +14,11 @@ const dreamTeam: DreamTeamProps[] = [
     age: 31,
     hobbie: "Parler en public",
     image: (
-      <img src="./public/imgArnaud.png" className="imgDreamTeam" alt="Arnaud" />
+      <img
+        src="./public/imgArnaud.png"
+        className="img-dream-team"
+        alt="Arnaud"
+      />
     ),
     description: "Il est le fondateur de la Wild Code School.",
   },
@@ -23,7 +27,11 @@ const dreamTeam: DreamTeamProps[] = [
     age: 21,
     hobbie: "Utiliser Biome",
     image: (
-      <img src="./public/imgThomas.png" className="imgDreamTeam" alt="Thomas" />
+      <img
+        src="./public/imgThomas.png"
+        className="img-dream-team"
+        alt="Thomas"
+      />
     ),
     description: "Il est le meilleur ami de la Wild Code School.",
   },
@@ -34,7 +42,7 @@ const dreamTeam: DreamTeamProps[] = [
     image: (
       <img
         src="./public/imgTimothey.png"
-        className="imgDreamTeam"
+        className="img-dream-team"
         alt="Timothey"
       />
     ),
@@ -45,7 +53,11 @@ const dreamTeam: DreamTeamProps[] = [
     age: 30,
     hobbie: "Attendre un an pour mettre à jour son MAC",
     image: (
-      <img src="./public/imgAlicia.png" className="imgDreamTeam" alt="Alicia" />
+      <img
+        src="./public/imgAlicia.png"
+        className="img-dream-team"
+        alt="Alicia"
+      />
     ),
     description: "Elle est la plus patiente de la Wild Code School.",
   },
@@ -55,26 +67,26 @@ function AboutUs() {
   return (
     <>
       <h1 className="title">La dream team</h1>
-      <div className="dreamTeam">
+      <div className="dream-team">
         {dreamTeam.map((dreamteam) => (
           <section key={dreamteam.name} className="container">
             <h2 className="name">{dreamteam.name}</h2>
             {dreamteam.image}
-            <p className="cardContainer">Âge : {dreamteam.age}</p>
-            <p className="cardContainer">Hobbie : {dreamteam.hobbie}</p>
-            <p className="cardContainer">{dreamteam.description}</p>
+            <p className="card-container">Âge : {dreamteam.age}</p>
+            <p className="card-container">Hobbie : {dreamteam.hobbie}</p>
+            <p className="card-container">{dreamteam.description}</p>
           </section>
         ))}
       </div>
       <h1 className="title">Nous contacter</h1>
-      <section className="contactUs">
+      <section className="contact-us">
         <p>Nom :</p> <input className="input" type="text" placeholder="Nom" />
         <p>Prénom :</p>{" "}
         <input className="input" type="text" placeholder="Prénom" />
         <p>Mail :</p> <input className="input" type="email" placeholder="Nom" />
         <p>Raison de la demande de contact :</p>{" "}
         <input
-          className="inputContact"
+          className="input-contact"
           type="text"
           placeholder="Taper votre message ici"
         />

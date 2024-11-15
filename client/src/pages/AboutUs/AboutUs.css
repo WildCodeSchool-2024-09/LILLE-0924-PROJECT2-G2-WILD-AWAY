@@ -1,4 +1,13 @@
-.dreamTeam {
+.img-dream-team {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 15px;
+}
+
+.dream-team {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -18,15 +27,6 @@
   box-shadow: 0 0 10px #36736e;
 }
 
-.imgDreamTeam {
-  width: 20rem;
-  height: 20rem;
-  border-radius: 15px;
-  margin: 10px;
-  display: flex;
-  justify-self: center;
-}
-
 .title {
   font-size: 1.8rem;
   text-align: center;
@@ -37,12 +37,12 @@
   text-align: center;
 }
 
-.cardContainer {
+.card-container {
   font-size: 1.1rem;
   line-height: 1.5rem;
 }
 
-.contactUs {
+.contact-us {
   margin: 20px;
 }
 
@@ -54,7 +54,7 @@
   border: 1px solid #36736e;
 }
 
-.inputContact {
+.input-contact {
   width: 30%;
   padding: 40px;
   border-radius: 10px;
