@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   const [bookingData, setBookingData] = useState([]);
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <>
+      <NavBar />
       <Outlet context={[bookingData]} />
       <Footer />
     </>
