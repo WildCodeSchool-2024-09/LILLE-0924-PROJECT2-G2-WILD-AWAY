@@ -1,6 +1,6 @@
 import HotelCard from "../../components/HotelCard";
 import RestaurantCard from "../../components/RestaurantCard";
-import "./Booking.css";
+import "./booking.css";
 
 function Booking() {
   return (

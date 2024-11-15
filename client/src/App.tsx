@@ -1,6 +1,5 @@
 import "./App.css";
-import Booking from "./pages/booking/Booking";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 
