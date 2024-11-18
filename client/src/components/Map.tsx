@@ -31,7 +31,7 @@ function MapElement() {
         >
           {content}
         </div>
-        <div style={{ width: "800px", border: "solid" }}>
+        <div style={{ width: "900px" }}>
           <ComposableMap>
             <ZoomableGroup zoom={1}>
               <Geographies geography="https://cdn.jsdelivr.net/npm/world-atlas@2/countries-10m.json">
