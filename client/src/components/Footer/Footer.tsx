@@ -4,17 +4,9 @@ function Footer() {
   return (
     <footer>
       <section className="footer">
-        <img
-          src="./public/twitter.png"
-          className="logo"
-          alt="logo de Twitter"
-        />{" "}
+        <img src="/twitter.png" className="logo" alt="logo de Twitter" />{" "}
         @WildAway
-        <img
-          src="./public/instagram.png"
-          className="logo"
-          alt="logo de Instagram"
-        />{" "}
+        <img src="/instagram.png" className="logo" alt="logo de Instagram" />{" "}
         @WildAway
         <p className="credit">© WildAway 2024 </p>
         <p className="contact">Nous contacter</p>
