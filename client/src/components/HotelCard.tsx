@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 interface BookingData {
   hotels: {
     image_url: string;
@@ -9,6 +11,12 @@ interface BookingData {
 
 function HotelCard({ bookingData }: { bookingData: BookingData }) {
   const hotels = bookingData.hotels;
+
+  const [popupVisible, setPopupVisible] = useState(false);
+
+  const handleCLickPopup = () => {
+    setPopupVisible(!popupVisible);
+  };
 
   return (
     <>
@@ -23,8 +31,32 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
         <h2>{hotels[0].name}</h2>
         <p>{hotels[0].description}</p>
         <p>{hotels[0].price_per_night}€</p>
-        <button type="button">Reservez</button>
+        <button type="button" onClick={handleCLickPopup}>
+          Reservez
+        </button>
       </article>
+
+      {popupVisible ? (
+        <div className="hotel-popup">
+          <div className="popup-content">
+            <h2>Reservez votre séjour !</h2>
+            <label htmlFor="personNumber">
+              Pour combien de personnes ? :
+              <input type="number" className="personNumber" />
+            </label>
+            <label htmlFor="vacationDate">
+              Pour quelle dates ? :
+              <input type="date" className="vacationDate" />
+              au
+              <input type="date" className="vacationDate" />
+            </label>
+            <p>Prix :</p>
+            <button type="button" onClick={handleCLickPopup}>
+              Close popup
+            </button>
+          </div>
+        </div>
+      ) : null}
     </>
   );
 }
