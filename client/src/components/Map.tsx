@@ -24,14 +24,14 @@ function MapElement() {
             top: "10px",
             left: "10px",
             backgroundColor: "rgba(255, 255, 255, 0.9)",
-            padding: "5px 10px",
+            
             borderRadius: "5px",
             zIndex: 1,
           }}
         >
           {content}
         </div>
-        <div style={{ width: "800px", border: "solid" }}>
+        <div style={{ width: "900px" }}>
           <ComposableMap>
             <ZoomableGroup zoom={1}>
               <Geographies geography="https://cdn.jsdelivr.net/npm/world-atlas@2/countries-10m.json">
