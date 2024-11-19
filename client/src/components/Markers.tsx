@@ -95,6 +95,42 @@ const Markers: MapInfo[] = [
     name: "Oulan-Bator",
     coordinates: [106.917, 47.9167],
   },
+  {
+    id: 16,
+    markerOffSet: -15,
+    name: "Edimbourg",
+    coordinates: [-3.1206, 55.5717],
+  },
+  {
+    id: 17,
+    markerOffSet: -15,
+    name: "Antisiranana",
+    coordinates: [49.1733, -12.1658],
+  },
+  {
+    id: 18,
+    markerOffSet: -15,
+    name: "Mexico City",
+    coordinates: [-99.1332, 19.4326],
+  },
+  {
+    id: 19,
+    markerOffSet: -15,
+    name: "Mumbai",
+    coordinates: [72.8777, 19.076],
+  },
+  {
+    id: 20,
+    markerOffSet: -15,
+    name: "Pekin",
+    coordinates: [116.4074, 39.9042],
+  },
+  {
+    id: 21,
+    markerOffSet: -15,
+    name: "Lima",
+    coordinates: [-77.0428, -12.0464],
+  },
 ];
 
 export default Markers;
