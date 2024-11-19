@@ -92,9 +92,9 @@ function Booking() {
               <RestaurantCard bookingData={bookingData} />
             </section>
 
-            <div className="slider">
-              <div className="slide-track">
-                <div className="slide">
+            <div className="sliders">
+              <div className="slides-track">
+                <div className="slides">
                   <img
                     src="../public/slide7.jpg"
                     className="img-slide"

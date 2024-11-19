@@ -140,3 +140,38 @@ button:hover {
   width: 100%;
   padding: 1rem;
 }
+
+.sliders {
+  height: 90%;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slides-track {
+  display: flex;
+  flex-direction: column;
+  height: calc(250px * 6);
+  animation: scrolls 40s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes scrolls {
+  0% {
+    transform: translateY(calc(-250px * 3));
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slides {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
