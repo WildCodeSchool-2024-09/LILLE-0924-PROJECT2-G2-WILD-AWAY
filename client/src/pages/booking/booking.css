@@ -9,6 +9,7 @@ html {
   display: flex;
   justify-content: center;
   font-family: "Anton SC", sans-serif;
+  height: 600px;
 }
 
 h1 {
@@ -98,4 +99,44 @@ button:hover {
   margin: 2rem;
   width: 2.5rem;
   font-size: 1rem;
+}
+
+.slider {
+  height: 90%;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  flex-direction: column;
+  height: calc(250px * 6);
+  animation: scroll 40s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(-250px * 3));
+  }
+}
+
+.slide {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.img-slide {
+  width: 100%;
+  padding: 1rem;
 }
