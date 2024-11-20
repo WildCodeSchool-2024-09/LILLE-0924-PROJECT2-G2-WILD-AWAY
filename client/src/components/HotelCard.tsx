@@ -13,24 +13,44 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
   const hotels = bookingData.hotels;
 
   const [popupVisible, setPopupVisible] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const currentHotel = hotels[currentIndex];
 
   const handleCLickPopup = () => {
     setPopupVisible(!popupVisible);
+  };
+
+  const handleNextHotel = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % hotels.length);
+  };
+
+  const handlePreviousHotel = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? hotels.length - 1 : prevIndex - 1,
+    );
   };
 
   return (
     <>
       <article className="card">
         <img
-          src={hotels[0].image_url}
-          alt={hotels[0].name}
+          src={currentHotel.image_url}
+          alt={currentHotel.name}
           height="200px"
           width="200px"
           className="booking-card-img"
         />
-        <h2>{hotels[0].name}</h2>
-        <p>{hotels[0].description}</p>
-        <p>{hotels[0].price_per_night}€</p>
+        <h2>{currentHotel.name}</h2>
+        <p>{currentHotel.description}</p>
+        <p>{currentHotel.price_per_night}€</p>
+        <div className="navigation-buttons">
+          <button type="button" onClick={handlePreviousHotel}>
+            Précédent
+          </button>
+          <button type="button" onClick={handleNextHotel}>
+            Suivant
+          </button>
+        </div>
         <button type="button" onClick={handleCLickPopup}>
           Reservez
         </button>

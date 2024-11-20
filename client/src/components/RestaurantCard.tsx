@@ -13,59 +13,83 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
   const restaurants = bookingData.restaurants;
 
   const [popupVisible, setPopupVisible] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const currentRestaurant = restaurants[currentIndex];
 
   const handleCLickPopup = () => {
     setPopupVisible(!popupVisible);
   };
 
+  const handleNextRestaurant = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % restaurants.length);
+  };
+
+  const handlePreviousRestaurant = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? restaurants.length - 1 : prevIndex - 1,
+    );
+  };
+
   return (
     <>
       <article className="card">
-        <img
-          src={restaurants[0].image_url}
-          alt={restaurants[0].name}
-          height="200px"
-          width="200px"
-          className="booking-card-img"
-        />
-        <h2>{restaurants[0].name}</h2>
-        <p>{restaurants[0].description}</p>
-        <p>{restaurants[0].average_price_per_person}€</p>
+        <div className="restaurant-details">
+          <img
+            src={currentRestaurant.image_url}
+            alt={currentRestaurant.name}
+            height="200px"
+            width="200px"
+            className="booking-card-img"
+          />
+          <h2>{currentRestaurant.name}</h2>
+          <p>{currentRestaurant.description}</p>
+          <p>{currentRestaurant.average_price_per_person}€</p>
+        </div>
+
+        <div className="navigation-buttons">
+          <button type="button" onClick={handlePreviousRestaurant}>
+            Précédent
+          </button>
+          <button type="button" onClick={handleNextRestaurant}>
+            Suivant
+          </button>
+        </div>
+
         <button type="button" onClick={handleCLickPopup}>
           Reservez
         </button>
-      </article>
 
-      {popupVisible && (
-        <div className="popup-overlay">
-          <div className="restaurant-popup">
-            <div className="title-color">
-              <h2>Reservez votre séjour ! </h2>
+        {popupVisible && (
+          <div className="popup-overlay">
+            <div className="restaurant-popup">
+              <div className="title-color">
+                <h2>Reservez votre séjour ! </h2>
+              </div>
+              <label htmlFor="personNumber">
+                Pour combien de personnes ? :
+                <input type="number" className="personNumber" />
+              </label>
+              <label className="vacationDate-container" htmlFor="vacationDate">
+                Pour quelle date ? :
+                <img
+                  className="img-popup-restaurant"
+                  src="../restaurant-popup.png"
+                  alt=""
+                />
+                <input type="date" className="vacationDate" />
+              </label>
+              <label className="vacationHour-container" htmlFor="vacationHour">
+                Pour quelle heure ? :
+                <input type="time" className="vacationHour" />
+              </label>
+              <p className="prix">Prix :</p>
+              <button type="button" onClick={handleCLickPopup}>
+                Valider
+              </button>
             </div>
-            <label htmlFor="personNumber">
-              Pour combien de personnes ? :
-              <input type="number" className="personNumber" />
-            </label>
-            <label className="vacationDate-container" htmlFor="vacationDate">
-              Pour quelle date ? :
-              <img
-                className="img-popup-restaurant"
-                src="../restaurant-popup.png"
-                alt=""
-              />
-              <input type="date" className="vacationDate" />
-            </label>
-            <label className="vacationHour-container" htmlFor="vacationHour">
-              Pour quelle heure ? :
-              <input type="time" className="vacationHour" />
-            </label>
-            <p className="prix">Prix :</p>
-            <button type="button" onClick={handleCLickPopup}>
-              Valider
-            </button>
           </div>
-        </div>
-      )}
+        )}
+      </article>
     </>
   );
 }
