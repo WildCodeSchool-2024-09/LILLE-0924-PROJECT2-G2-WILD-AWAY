@@ -38,15 +38,21 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
 
       {popupVisible && (
         <div className="popup-overlay">
-        <div className="restaurant-popup">
-          <div className="popup-content">
-            <div className="title-color"><h2>Reservez votre séjour ! </h2></div>
-            <label htmlFor="personNumber" >
+          <div className="restaurant-popup">
+            <div className="title-color">
+              <h2>Reservez votre séjour ! </h2>
+            </div>
+            <label htmlFor="personNumber">
               Pour combien de personnes ? :
               <input type="number" className="personNumber" />
             </label>
-            <label className="vacationDate-container" htmlFor="vacationDate" >
-              Pour quelle date ? :<img className="img-popup-restaurant" src="../restaurant-popup.png" alt="" />
+            <label className="vacationDate-container" htmlFor="vacationDate">
+              Pour quelle date ? :
+              <img
+                className="img-popup-restaurant"
+                src="../restaurant-popup.png"
+                alt=""
+              />
               <input type="date" className="vacationDate" />
             </label>
             <label className="vacationHour-container" htmlFor="vacationHour">
@@ -58,7 +64,6 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
               Fermer
             </button>
           </div>
-        </div>
         </div>
       )}
     </>
