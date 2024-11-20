@@ -24,7 +24,7 @@ function MapElement() {
             top: "10px",
             left: "10px",
             backgroundColor: "rgba(255, 255, 255, 0.9)",
-            
+
             borderRadius: "5px",
             zIndex: 1,
           }}
@@ -67,7 +67,7 @@ function MapElement() {
               {Markers.map(({ name, coordinates, markerOffSet, id }) => (
                 <Marker key={name} coordinates={coordinates}>
                   <circle
-                    r={5}
+                    r={4}
                     fill="#F00"
                     stroke="#fff"
                     strokeWidth={0.1}
@@ -77,7 +77,11 @@ function MapElement() {
                   <text
                     textAnchor="middle"
                     y={markerOffSet}
-                    style={{ fontFamily: "system-ui", fill: "black" }}
+                    style={{
+                      fontFamily: "system-ui",
+                      fill: "black",
+                      fontSize: 14,
+                    }}
                   >
                     {name}
                   </text>
