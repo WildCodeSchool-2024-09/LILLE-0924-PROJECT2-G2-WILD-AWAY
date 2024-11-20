@@ -69,6 +69,7 @@ button:hover {
   left: 30%;
   width: 40%;
   height: 60%;
+  padding: 0.5rem;
 }
 
 .popup-overlay {
@@ -105,12 +106,12 @@ button:hover {
 
 .vacationDate {
   margin: 2rem;
-  width: 100%;
+  width: 80%;
 }
 
 .personNumber {
   margin: 5%;
-  width: 80%;
+  width: 70%;
   font-size: 1rem;
 }
 
@@ -149,13 +150,14 @@ button:hover {
   margin-top: -20%;
   transform: rotate(30deg);
 }
-.img-popup-hotel {
+/* .img-popup-hotel {
   display: flex;
   width: 15%;
   position: absolute;
   margin-left: 65%;
   margin-top: -20%;
-}
+} */
+
 .personNumber-container {
   margin-right: 18%;
 }

@@ -39,28 +39,34 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
       {popupVisible && (
         <div className="popup-overlay">
           <div className="hotel-popup">
-          <div className="popup-content">
-            <div className="title-color"><h2>Reservez votre séjour !</h2></div>
-            <label className="personNumber-container" htmlFor="personNumber">
-              Pour combien de personnes ? :
-              <input type="number" className="personNumber" />
-            </label>
-            <label htmlFor="vacationDate">
-              Pour quelle dates ? : <img className="img-popup-hotel" src="../hotel-popup.png" alt="" />
-              <input type="date" className="vacationDate" />
-              au
-              <input type="date" className="vacationDate" />
-            </label>
-            <p>Prix :</p>
-            <button type="button" onClick={handleCLickPopup}>
-              Close popup
-            </button>
+            <div className="popup-content">
+              <div className="title-color">
+                <h2>Reservez votre séjour !</h2>
+              </div>
+              <label className="personNumber-container" htmlFor="personNumber">
+                Pour combien de personnes ? :
+                <input type="number" className="personNumber" />
+              </label>
+              <label htmlFor="vacationDate">
+                Pour quelle dates ? :{" "}
+                {/* <img
+                  className="img-popup-hotel"
+                  src="../hotel-popup.png"
+                  alt=""
+                /> */}
+                <input type="date" className="vacationDate" />
+                au
+                <input type="date" className="vacationDate" />
+              </label>
+              <p>Prix :</p>
+              <button type="button" onClick={handleCLickPopup}>
+                Close popup
+              </button>
+            </div>
           </div>
         </div>
-        </div>
-      ) }
+      )}
     </>
-    
   );
 }
 
