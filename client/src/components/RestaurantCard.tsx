@@ -37,8 +37,6 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
           <img
             src={currentRestaurant.image_url}
             alt={currentRestaurant.name}
-            height="200px"
-            width="200px"
             className="booking-card-img"
           />
           <h2>{currentRestaurant.name}</h2>

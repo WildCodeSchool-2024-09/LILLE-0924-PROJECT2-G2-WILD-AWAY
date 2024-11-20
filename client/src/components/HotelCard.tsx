@@ -11,7 +11,6 @@ interface BookingData {
 
 function HotelCard({ bookingData }: { bookingData: BookingData }) {
   const hotels = bookingData.hotels;
-
   const [popupVisible, setPopupVisible] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const currentHotel = hotels[currentIndex];
@@ -36,8 +35,6 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
         <img
           src={currentHotel.image_url}
           alt={currentHotel.name}
-          height="200px"
-          width="200px"
           className="booking-card-img"
         />
         <h2>{currentHotel.name}</h2>
@@ -69,7 +66,12 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
               <input type="number" className="personNumber" />
             </label>
             <label htmlFor="vacationDate">
-              Pour quelle dates ? : <img className="img-popup-hotel" src="../hotel-popup.png" alt="" />
+              Pour quelle dates ? :{" "}
+              <img
+                className="img-popup-hotel"
+                src="../hotel-popup.png"
+                alt=""
+              />
               <input type="date" className="vacationDate" />
               au
               <input type="date" className="vacationDate" />
@@ -81,9 +83,7 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
           </div>
         </div>
       )}
-
     </>
-    
   );
 }
 
