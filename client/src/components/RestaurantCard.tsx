@@ -65,6 +65,7 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
             </button>
           </div>
         </div>
+
       )}
     </>
   );
