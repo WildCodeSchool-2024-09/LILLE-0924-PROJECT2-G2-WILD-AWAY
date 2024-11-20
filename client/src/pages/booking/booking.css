@@ -10,6 +10,7 @@ html {
   display: flex;
   justify-content: center;
   font-family: "Anton SC", sans-serif;
+  height: 600px;
 }
 
 h1 {
@@ -114,6 +115,80 @@ button:hover {
   font-size: 1rem;
 }
 
+.slider {
+  height: 90%;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  flex-direction: column;
+  height: calc(250px * 6);
+  animation: scroll 40s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(-250px * 3));
+  }
+}
+
+.slide {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.img-slide {
+  width: 100%;
+  padding: 1rem;
+}
+
+.sliders {
+  height: 90%;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slides-track {
+  display: flex;
+  flex-direction: column;
+  height: calc(250px * 6);
+  animation: scrolls 40s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes scrolls {
+  0% {
+    transform: translateY(calc(-250px * 3));
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slides {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+
 .vacationDate-container {
   padding-right: 11%;
 }
@@ -126,6 +201,7 @@ button:hover {
 .vacationHour-container {
   padding-right: 15%;
 }
+  
 .title-color {
   position: relative;
   width: 40vw;
@@ -138,9 +214,11 @@ button:hover {
   font-size: 20px;
   margin-bottom: 2%;
 }
+  
 .prix {
   margin-top: -3%;
 }
+  
 .img-popup-restaurant {
   display: flex;
   width: 20%;
@@ -149,6 +227,7 @@ button:hover {
   margin-top: -20%;
   transform: rotate(30deg);
 }
+  
 .img-popup-hotel {
   display: flex;
   width: 15%;
@@ -156,6 +235,7 @@ button:hover {
   margin-left: 65%;
   margin-top: -20%;
 }
+  
 .personNumber-container {
   margin-right: 18%;
 }
