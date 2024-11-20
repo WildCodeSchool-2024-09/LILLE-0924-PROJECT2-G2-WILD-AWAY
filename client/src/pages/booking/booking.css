@@ -10,6 +10,7 @@ html {
   display: flex;
   justify-content: center;
   font-family: "Anton SC", sans-serif;
+  height: 600px;
 }
 
 h1 {
@@ -39,6 +40,8 @@ h1 {
   border-radius: 100px;
   padding: 0.3rem;
   background-color: #e8e1d4;
+  height: 200px;
+  width: 200px;
 }
 
 button {
@@ -48,7 +51,7 @@ button {
   font-weight: bold;
   border-radius: 100px;
   border: 2px solid #3a1c0b;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 button:hover {
@@ -65,11 +68,10 @@ button:hover {
   align-items: center;
   background-color: white;
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 30%;
   width: 40%;
-  height: 60%;
-  padding: 0.5rem;
+  height: 70%;
 }
 
 .popup-overlay {
@@ -106,13 +108,88 @@ button:hover {
 
 .vacationDate {
   margin: 2rem;
-  width: 80%;
+  width: 90%;
 }
 
 .personNumber {
-  margin: 5%;
-  width: 70%;
+  margin: 2rem;
+  width: 10%;
   font-size: 1rem;
+}
+
+.slider {
+  height: 90%;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  flex-direction: column;
+  height: calc(250px * 6);
+  animation: scroll 40s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(-250px * 3));
+  }
+}
+
+.slide {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.img-slide {
+  width: 100%;
+  padding: 1rem;
+}
+
+.sliders {
+  height: 90%;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slides-track {
+  display: flex;
+  flex-direction: column;
+  height: calc(250px * 6);
+  animation: scrolls 40s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes scrolls {
+  0% {
+    transform: translateY(calc(-250px * 3));
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slides {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
 }
 
 .vacationDate-container {
@@ -127,37 +204,35 @@ button:hover {
 .vacationHour-container {
   padding-right: 15%;
 }
+
 .title-color {
-  position: relative;
-  width: 40vw;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
   background-color: #6f4d38;
   color: #e8e1d4;
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
+
+  margin-top: -22%;
   margin-bottom: 2%;
+  border-radius: 10px 10px 0 0;
 }
+  
 .prix {
   margin-top: -3%;
 }
+  
 .img-popup-restaurant {
-  display: flex;
-  width: 20%;
   position: absolute;
-  margin-left: 53%;
-  margin-top: -20%;
+  width: 6rem;
+  top: 15%;
+  right: 15%;
   transform: rotate(30deg);
 }
-/* .img-popup-hotel {
-  display: flex;
-  width: 15%;
+  
+.img-popup-hotel {
   position: absolute;
-  margin-left: 65%;
-  margin-top: -20%;
-} */
-
-.personNumber-container {
-  margin-right: 18%;
+  width: 4.5rem;
+  top: 15%;
+  right: 15%;
 }
