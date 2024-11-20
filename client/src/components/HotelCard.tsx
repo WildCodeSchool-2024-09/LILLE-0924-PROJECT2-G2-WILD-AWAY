@@ -63,14 +63,14 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
               <h2>Reservez votre séjour !</h2>
             </div>
             <img className="img-popup-hotel" src="../hotel-popup.png" alt="" />
+
             <label className="personNumber-container" htmlFor="personNumber">
               Pour combien de personnes ? :
               <input type="number" className="personNumber" />
             </label>
-
             <label htmlFor="vacationDate">
-              Pour quelle dates ? :
-              <input type="date" className="vacationDate" /> <br />
+              Pour quelle dates ? : <img className="img-popup-hotel" src="../hotel-popup.png" alt="" />
+              <input type="date" className="vacationDate" />
               au
               <input type="date" className="vacationDate" />
             </label>
@@ -81,7 +81,9 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
           </div>
         </div>
       )}
+
     </>
+    
   );
 }
 
