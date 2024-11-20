@@ -34,6 +34,7 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  min-height: 510px;
 }
 
 .booking-card-img {
@@ -217,11 +218,11 @@ button:hover {
   margin-bottom: 2%;
   border-radius: 10px 10px 0 0;
 }
-  
+
 .prix {
   margin-top: -3%;
 }
-  
+
 .img-popup-restaurant {
   position: absolute;
   width: 6rem;
@@ -229,7 +230,7 @@ button:hover {
   right: 15%;
   transform: rotate(30deg);
 }
-  
+
 .img-popup-hotel {
   position: absolute;
   width: 4.5rem;
