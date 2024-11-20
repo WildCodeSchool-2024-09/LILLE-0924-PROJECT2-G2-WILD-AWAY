@@ -11,26 +11,43 @@ interface BookingData {
 
 function HotelCard({ bookingData }: { bookingData: BookingData }) {
   const hotels = bookingData.hotels;
-
   const [popupVisible, setPopupVisible] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const currentHotel = hotels[currentIndex];
 
   const handleCLickPopup = () => {
     setPopupVisible(!popupVisible);
+  };
+
+  const handleNextHotel = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % hotels.length);
+  };
+
+  const handlePreviousHotel = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? hotels.length - 1 : prevIndex - 1,
+    );
   };
 
   return (
     <>
       <article className="card">
         <img
-          src={hotels[0].image_url}
-          alt={hotels[0].name}
-          height="200px"
-          width="200px"
+          src={currentHotel.image_url}
+          alt={currentHotel.name}
           className="booking-card-img"
         />
-        <h2>{hotels[0].name}</h2>
-        <p>{hotels[0].description}</p>
-        <p>{hotels[0].price_per_night}€</p>
+        <h2>{currentHotel.name}</h2>
+        <p>{currentHotel.description}</p>
+        <p>{currentHotel.price_per_night}€</p>
+        <div className="navigation-buttons">
+          <button type="button" onClick={handlePreviousHotel}>
+            Précédent
+          </button>
+          <button type="button" onClick={handleNextHotel}>
+            Suivant
+          </button>
+        </div>
         <button type="button" onClick={handleCLickPopup}>
           Reservez
         </button>
@@ -39,28 +56,34 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
       {popupVisible && (
         <div className="popup-overlay">
           <div className="hotel-popup">
-          <div className="popup-content">
-            <div className="title-color"><h2>Reservez votre séjour !</h2></div>
+            <div className="title-color">
+              <h2>Reservez votre séjour !</h2>
+            </div>
+            <img className="img-popup-hotel" src="../hotel-popup.png" alt="" />
+
             <label className="personNumber-container" htmlFor="personNumber">
               Pour combien de personnes ? :
               <input type="number" className="personNumber" />
             </label>
             <label htmlFor="vacationDate">
-              Pour quelle dates ? : <img className="img-popup-hotel" src="../hotel-popup.png" alt="" />
+              Pour quelle dates ? :{" "}
+              <img
+                className="img-popup-hotel"
+                src="../hotel-popup.png"
+                alt=""
+              />
               <input type="date" className="vacationDate" />
               au
               <input type="date" className="vacationDate" />
             </label>
             <p>Prix :</p>
             <button type="button" onClick={handleCLickPopup}>
-              Close popup
+              Valider
             </button>
           </div>
         </div>
-        </div>
-      ) }
+      )}
     </>
-    
   );
 }
 

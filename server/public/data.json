@@ -479,6 +479,198 @@
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d4/f9/ed/hazara-north-indian-restaurant.jpg?w=1000&h=-1&s=1"
         }
       ]
+    },
+    {
+      "city": "Edimbourg",
+      "id": 16,
+      "hotels": [
+        {
+          "name": "The Balmoral Hotel",
+          "description": "Hôtel de luxe emblématique avec spa et restaurant étoilé.",
+          "price_per_night": 800,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/186230459.jpg?k=ba798ec15aff7a8d3c15b1bbb1d327c61dcd27b48582e63b8a8a214f43aa5699&o=&hp=1"
+        },
+        {
+          "name": "Cheval Old Town Chambers",
+          "description": "Appartements élégants au cœur historique d'Édimbourg.",
+          "price_per_night": 600,
+          "image_url": "https://www.chevalcollection.com/wp-content/uploads/2022/11/COTC-The-Royal-Mile-view-1.jpg"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "The Witchery by the Castle",
+          "description": "Cuisine britannique raffinée dans un cadre gothique",
+          "average_price_per_person": 120,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/59/00/45/the-witchery-by-the-castle.jpg?w=2000&h=-1&s=1"
+        },
+        {
+          "name": "Timberyard",
+          "description": "Cuisine écossaise moderne avec produits locaux.",
+          "average_price_per_person": 130,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/75/bb/84/timberyard-tables-and.jpg?w=1400&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "city": "Antisiranana",
+      "id": 17,
+      "hotels": [
+        {
+          "name": "Le Grand Hôtel Diego",
+          "description": "Hôtel moderne avec piscine et restaurant en centre-ville.",
+          "price_per_night": 100,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/120237147.jpg?k=01d36ec5dc1b20e21ca30b5b68fc84d9edac7c82f35887b386904217d3c12565&o=&hp=1"
+        },
+        {
+          "name": "Allamanda Hotel",
+          "description": "Hôtel en bord de mer avec chambres confortables et vue sur l’océan.",
+          "price_per_night": 120,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/e5/9d/3f/piscine.jpg?w=2400&h=-1&s=1"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "La Bodega",
+          "description": "Cuisine méditerranéenne et locale dans une ambiance conviviale.",
+          "average_price_per_person": 20,
+          "image_url": "https://www.madadecouverte.com/images/diego-suarez/restaurant-bar-discotheque/bodega_photo1.jpg"
+        },
+        {
+          "name": "Le Melville",
+          "description": "Cuisine fusion avec spécialités de fruits de mer face à la mer.",
+          "average_price_per_person": 30,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/7d/76/75/20160810-183423-largejpg.jpg?w=2000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "city": "Mexico City",
+      "id": 18,
+      "hotels": [
+        {
+          "name": "Four Seasons Hotel Mexico City",
+          "description": "Hôtel de luxe avec jardin central, spa et restaurants raffinés.",
+          "price_per_night": 800,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/269872251.jpg?k=dc4559c89486ab24dfa711ff854e49848e2dfa377a14a570080fac881e3ff900&o=&hp=1"
+        },
+        {
+          "name": "Hotel Catedral",
+          "description": "Hôtel élégant et abordable près du Zócalo avec terrasse panoramique.",
+          "price_per_night": 150,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/9d/cc/b6/caption.jpg?w=1400&h=-1&s=1"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Pujol",
+          "description": "Cuisine mexicaine gastronomique renommée dans le monde entier.",
+          "average_price_per_person": 250,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/81/6f/01/caption.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "Contramar",
+          "description": "Restaurant de fruits de mer frais et plats mexicains modernes.",
+          "average_price_per_person": 70,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/40/e7/22/inside.jpg?w=1400&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "city": "Mumbai",
+      "id": 19,
+      "hotels": [
+        {
+          "name": "The Taj Mahal Palace",
+          "description": "Hôtel emblématique de luxe avec vue sur la mer d'Arabie et des services haut de gamme.",
+          "price_per_night": 500,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/103705059.jpg?k=9e078265b31ad1815a573da8ed2a665f863e3925e1efd730df703421868a2ada&o=&hp=1"
+        },
+        {
+          "name": "The Oberoi Mumbai",
+          "description": "Hôtel sophistiqué avec vue panoramique sur la mer et un service exceptionnel.",
+          "price_per_night": 400,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/25339753.jpg?k=42a6601d184ad9e3fe25ec0d15a8605b7e135142479ae42a6265231dca33191f&o=&hp=1"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Bade Miyan",
+          "description": "Cuisine indienne de rue célèbre pour ses brochettes et ses kebabs.",
+          "average_price_per_person": 10,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/df/21/93/photo2jpg.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "Le Cirque",
+          "description": "Cuisine italienne et méditerranéenne raffinée dans un cadre élégant.",
+          "average_price_per_person": 100,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/6e/f2/10/la-salle-comble.jpg?w=1400&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "city": "Pekin",
+      "id": 20,
+      "hotels": [
+        {
+          "name": "The Peninsula Beijing",
+          "description": "Hôtel de luxe avec spa, piscine intérieure et restaurants gastronomiques.",
+          "price_per_night": 250,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134719892.jpg?k=8062f96ba9cebaaa2dd8b216f87e0891affaa174c7fa694d2abcdd752ac5d947&o="
+        },
+        {
+          "name": "Waldorf Astoria Beijing",
+          "description": "Hôtel chic avec design élégant, spa et restaurants raffinés.",
+          "price_per_night": 400,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/483808919.jpg?k=a1f0045e981783abbcaabb766745e731d0d21f3d54fb3256af7eac51776f73d4&o=&hp=1"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Da Dong Roast Duck",
+          "description": "Restaurant célèbre pour son canard laqué pékinois et sa cuisine raffinée.",
+          "average_price_per_person": 60,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/91/0f/63/photo1jpg.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "Mao’s Kitchen",
+          "description": "Cuisine chinoise traditionnelle dans une ambiance décontractée.",
+          "average_price_per_person": 30,
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/FIDAwKfE0QI9mrfjCPB2fg/o.jpg"
+        }
+      ]
+    },
+    {
+      "city": "Lima",
+      "id": 21,
+      "hotels": [
+        {
+          "name": "Belmond Miraflores Park",
+          "description": "Hôtel de luxe avec vue sur l'océan Pacifique, piscine et spa.",
+          "price_per_night": 400,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/33580381.jpg?k=d418197f065ea7d99ea259dda9129fd891383dddf232740fe3e96e6e4e836e9e&o=&hp=1"
+        },
+        {
+          "name": "Hotel B",
+          "description": "Boutique hôtel élégant dans le quartier artistique de Barranco, avec une atmosphère chic.",
+          "price_per_night": 300,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/18517320.jpg?k=d504546b362bd4f88fe90d58b47e7b2c8c0b904ca6bb99e01ed6536a2df35385&o=&hp=1"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Central",
+          "description": "Restaurant célèbre pour son canard laqué pékinois et sa cuisine raffinée.",
+          "average_price_per_person": 150,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/6c/7e/29/caption.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "Maido",
+          "description": "Cuisine chinoise traditionnelle dans une ambiance décontractée.",
+          "average_price_per_person": 150,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/05/0b/76/caption.jpg?w=1400&h=-1&s=1"
+        }
+      ]
     }
   ]
 }
