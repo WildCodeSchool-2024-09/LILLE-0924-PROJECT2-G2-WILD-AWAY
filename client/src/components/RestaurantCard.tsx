@@ -61,7 +61,7 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
             </label>
             <p className="prix">Prix :</p>
             <button type="button" onClick={handleCLickPopup}>
-              Fermer
+              Valider
             </button>
           </div>
         </div>
