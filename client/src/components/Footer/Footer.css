@@ -1,9 +1,9 @@
 .footer {
-  background-color: #559393;
-  width: 100%;
+  background-color: #36736e;
+  width: 98%;
   position: relative;
   bottom: 0;
-  height: 5rem;
+  height: 2.5rem;
   color: #e8e1d4;
   font-size: 1rem;
   padding: 1%;
@@ -14,14 +14,10 @@
   height: 1rem;
   margin-right: 0.2rem;
   margin-left: 0.3rem;
-  display: inline;
 }
 
-.credit {
-  text-align: center;
-}
-
-.contact {
-  text-align: right;
-  margin-right: 2%;
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
