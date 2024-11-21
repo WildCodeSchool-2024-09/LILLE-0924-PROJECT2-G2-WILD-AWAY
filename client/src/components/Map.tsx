@@ -24,7 +24,6 @@ function MapElement() {
             top: "10px",
             left: "10px",
             backgroundColor: "rgba(255, 255, 255, 0.9)",
-
             borderRadius: "5px",
             zIndex: 1,
           }}

@@ -15,6 +15,18 @@
           "description": "Un hôtel élégant avec des chambres confortables et un restaurant branché.",
           "price_per_night": 140,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/a5/37/1b/exterior.jpg?w=900&h=500&s=1"
+        },
+        {
+          "name": "Hôtel l’Hermitage Gantois",
+          "description": "Hôtel historique 5 étoiles avec spa et restaurant dans un cadre unique.",
+          "price_per_night": 180,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/a5/37/1b/exterior.jpg?w=900&h=500&s=1"
+        },
+        {
+          "name": "Hôtel Carlton Lille",
+          "description": "Hôtel 4 étoiles élégant, situé en plein centre, avec vue sur l’Opéra de Lille",
+          "price_per_night": 150,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/190948320.jpg?k=a5dc3e340e5749ef293f8cb05f9c82290b0ec6458d0cffe7f78ca90c9d7b2730&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -29,6 +41,18 @@
           "description": "Restaurant créatif proposant une cuisine française inventive.",
           "average_price_per_person": 50,
           "image_url": "https://www.rougebarre.fr/i/rouge-barre-432236/3/4/4/0/4/4/1/3/4/4/3/1551120594_288/c0d6d34ddd423850049bbb6fb3304156.jpg"
+        },
+        {
+          "name": "Restaurant Le Barbue d'Anvers",
+          "description": "Un restaurant charmant situé dans le Vieux-Lille, proposant une cuisine française raffinée dans une ambiance chaleureuse.",
+          "average_price_per_person": 40,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/65/31/d0/le-barbue-d-anvers.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Bloempot",
+          "description": "Un bistrot moderne proposant une cuisine inventive et locale, dirigé par le célèbre chef Florent Ladeyn, dans un cadre rustique et convivial.",
+          "average_price_per_person": 50,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ce/1f/06/interieur.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -47,6 +71,18 @@
           "description": "Hôtel historique offrant des services haut de gamme et un cadre élégant.",
           "price_per_night": 500,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/432716061.jpg?k=68b75a01f02d13ed3da71efb81ebb0a3577e19aa46b2e449ee09c2a220e1bda7&o=&hp=1"
+        },
+        {
+          "name": "Hotel Artemide",
+          "description": "Hôtel 4 étoiles avec spa et terrasse panoramique, situé près de la Via Nazionale.",
+          "price_per_night": 200,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/68721190.jpg?k=40ab70205edfcc5475743b4748a733b8986b828bd7ca53f0d0b157e4baa8175e&o=&hp=1"
+        },
+        {
+          "name": "Hotel Quirinale",
+          "description": "Hôtel classique 4 étoiles avec jardin, proche de la fontaine de Trevi.",
+          "price_per_night": 180,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/44743773.jpg?k=9aacbb517b84d74e65d3be530ac478558d498308061eb85d3e51774cf70dd3ae&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -61,6 +97,18 @@
           "description": "Trattoria romaine authentique servant des pâtes et des plats traditionnels.",
           "average_price_per_person": 40,
           "image_url": "https://c8.alamy.com/compfr/r3c41m/da-enzo-restaurant-a-rome-est-celebre-pour-sa-cuisine-menu-romain-r3c41m.jpg"
+        },
+        {
+          "name": "La Pergola",
+          "description": "Un restaurant étoilé au Michelin offrant une cuisine gastronomique italienne raffinée avec une vue imprenable sur Rome.",
+          "average_price_per_person": 150,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/86/35/8a/la-pergola.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Trattoria Pennestri",
+          "description": "Un charmant restaurant familial proposant une cuisine romaine traditionnelle revisitée, dans un cadre accueillant et moderne.",
+          "average_price_per_person": 35,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/fe/e1/9c/photo6jpg.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -79,6 +127,18 @@
           "description": "Hôtel de luxe moderne avec un spa et un restaurant réputé.",
           "price_per_night": 600,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/106802325.jpg?k=b3404baa4c0f096cba3b8c6073bb6849575ad1f9eaaeb470b26daebec70b5dd2&o=&hp=1"
+        },
+        {
+          "name": "The Standard, High Line",
+          "description": "Hôtel branché avec vue sur la ville et rooftop, situé dans le quartier de Meatpacking.",
+          "price_per_night": 350,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/59721312.jpg?k=61c510a4a2ee868132509b90f2907055a85d035e31472c7900d473ec4591242b&o=&hp=1"
+        },
+        {
+          "name": "Pod 39 Hotel",
+          "description": "Hôtel moderne et abordable avec un rooftop, situé près de Grand Central.",
+          "price_per_night": 150,
+          "image_url": "https://images.trvl-media.com/lodging/6000000/5330000/5321600/5321579/8e124d9f.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
         }
       ],
       "restaurants": [
@@ -93,6 +153,18 @@
           "description": "Deli emblématique connu pour ses sandwichs au pastrami.",
           "average_price_per_person": 25,
           "image_url": "https://cdn.generationvoyage.fr/2013/11/katzsdelicatessen4.jpg"
+        },
+        {
+          "name": "Levain Bakery",
+          "description": "Célèbre pour ses cookies chauds et moelleux, cette boulangerie emblématique de New York est une destination incontournable pour les gourmands.",
+          "average_price_per_person": 10,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/14/70/fd/caption.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "L'Artusi",
+          "description": "Un restaurant élégant offrant une cuisine italienne moderne avec une touche créative, situé dans le quartier branché de l'ouest de New York.",
+          "average_price_per_person": 70,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/54/4c/03/photo3jpg.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -111,6 +183,18 @@
           "description": "Un hôtel élégant avec un spa de renommée mondiale et des chambres luxueuses.",
           "price_per_night": 650,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/13085500.jpg?k=8697465f587d77bcbcc4e30e2cd298ec9f44225571f74159a738a1ab0d7f77c8&o=&hp=1"
+        },
+        {
+          "name": "Shangri-La Sydney",
+          "description": "HHôtel 5 étoiles avec vue imprenable sur l’Opéra et Harbour Bridge.",
+          "price_per_night": 300,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/328134330.jpg?k=d44c70c68cbe0140726b14107f03d09abcbd11399f1f5cfb94fc7cc5f4623aa8&o=&hp=1"
+        },
+        {
+          "name": "QT Sydney",
+          "description": "Hôtel design et excentrique, situé au cœur du quartier des affaires.",
+          "price_per_night": 250,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/349266434.jpg?k=0763e442042c3fbfa16b09f6f2c5370ff225a57895b77388a91caff62853843b&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -125,6 +209,18 @@
           "description": "Restaurant moderne à l'intérieur de l'Opéra de Sydney, servant une cuisine australienne raffinée.",
           "average_price_per_person": 160,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/43/cc/4a/photo0jpg.jpg?w=1800&h=1000&s=1"
+        },
+        {
+          "name": "Tetsuya's",
+          "description": "Un restaurant primé offrant une cuisine japonaise raffinée fusionnée avec des influences australiennes, dans un cadre élégant et intime.",
+          "average_price_per_person": 180,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/9d/22/2b/bar.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "The Bridge Room",
+          "description": "Un restaurant moderne et intime proposant une cuisine australienne créative avec des produits locaux de saison, situé près du pont de Sydney.",
+          "average_price_per_person": 100,
+          "image_url": "https://images.squarespace-cdn.com/content/v1/59b8da3ee3df28bf0e287b2b/1509078253047-E5CKI9O6B4S7KPU8AU02/image-asset.jpeg?format=1000w"
         }
       ]
     },
@@ -143,6 +239,18 @@
           "description": "Hôtel historique offrant un luxe raffiné et un serviceexceptionnel.",
           "price_per_night": 450,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/568568113.jpg?k=2c491a43687c6f9d678d5e122209bfcafc0b97078739dbe40a505e5c90ff549c&o=&hp=1"
+        },
+        {
+          "name": "The Sutton Place Hotel Vancouver",
+          "description": "Hôtel élégant avec piscine intérieure et spa, à quelques pas de la rue Robson.",
+          "price_per_night": 250,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/394973345.jpg?k=b740df2e9f013692c82848df8c8de7edfa97108e50a8dc4d941d48998bf8a2a7&o=&hp=1"
+        },
+        {
+          "name": "Pinnacle Hotel Harbourfront",
+          "description": "Hôtel moderne avec vue sur le port, piscine extérieure et situé à quelques pas du Canada Place.",
+          "price_per_night": 200,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/65529082.jpg?k=5fb76d126e92829a679e76c3c845eb013ded9bec8f3c5c43f08846a0c0bc3298&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -157,6 +265,18 @@
           "description": "Restaurant japonais spécialisé dans le sushi Aburi, avec vue sur l'eau.",
           "average_price_per_person": 60,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/91/d4/1a/back-dining-room.jpg?w=1400&h=800&s=1"
+        },
+        {
+          "name": "Blue Water Cafe",
+          "description": "Un restaurant haut de gamme spécialisé dans les fruits de mer frais, offrant une expérience culinaire raffinée dans le quartier animé de Yaletown.",
+          "average_price_per_person": 75,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/d0/75/68/photo7jpg.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "CinCin Ristorante",
+          "description": "Un restaurant italien haut de gamme offrant une cuisine authentique et une vaste carte des vins, situé au cœur de Vancouver.",
+          "average_price_per_person": 70,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/e8/83/03/photo3jpg.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -175,6 +295,18 @@
           "description": "Un hôtel 5 étoiles au cœur de Séoul, combinant luxemoderne et tradition coréenne.",
           "price_per_night": 500,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/64401896.jpg?k=0ba08e27e0f71440984072d0b880c6ad94283c5f9020ad8142623b023cd32eff&o=&hp=1"
+        },
+        {
+          "name": "Lotte Hotel Seoul",
+          "description": "Hôtel 5 étoiles avec des chambres luxueuses, situé près de Myeongdong et de la tour Namsan.",
+          "price_per_night": 250,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/243887689.jpg?k=e7b0f1e60199b72042183e1c17aad86c4b0886bfe374406f73bf7352d1ea5342&o="
+        },
+        {
+          "name": "The Grand Hyatt Seoul",
+          "description": "Hôtel chic avec vue sur la rivière Han, offrant un grand spa et plusieurs restaurants.",
+          "price_per_night": 230,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/326510581.jpg?k=6e9fa48de842c718f372d90a8e3d08af0e0b0f19a068f84f8348869e64185c39&o="
         }
       ],
       "restaurants": [
@@ -189,6 +321,18 @@
           "description": "Un restaurant étoilé Michelin, mélangeant cuisine coréenne traditionnelle et influences modernes.",
           "average_price_per_person": 110,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/0b/4d/ea/caption.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "Joo Ok",
+          "description": "Un restaurant chic et élégant servant des plats coréens raffinés avec des touches contemporaines, mettant en avant des ingrédients locaux et de saison.",
+          "average_price_per_person": 80,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/a5/f8/f8/joo-ok.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "La Yeon",
+          "description": "Un restaurant étoilé au Michelin proposant une expérience culinaire coréenne authentique et raffinée dans un cadre élégant avec vue sur la ville.",
+          "average_price_per_person": 150,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/54/05/fc/la-yeon.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -207,6 +351,18 @@
           "description": "Hôtel design offrant une vue panoramique sur Ipanema et le Pain de Sucre.",
           "price_per_night": 350,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/489294846.jpg?k=2e0d760dc4fa2a5303fbdc8e2cd60147bddc19f6bb9c94a898a5dcb6afc00dba&o=&hp=1"
+        },
+        {
+          "name": "Hotel Santa Teresa Rio MGallery",
+          "description": "Hôtel de luxe emblématique avec vue sur la plage de Copacabana.",
+          "price_per_night": 400,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/539856093.jpg?k=bace6be5c51cbba747d0abb989b5653dcdabded2fc80c08adf9a7ee98787347f&o=&hp=1"
+        },
+        {
+          "name": "Hotel Fasano Rio de Janeiro",
+          "description": "Hôtel design offrant une vue panoramique sur Ipanema et le Pain de Sucre.",
+          "price_per_night": 350,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/214353002.jpg?k=e30de7688407be477921b822c5d04883a1403edded8c9aa3c13128dadba9524f&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -221,6 +377,18 @@
           "description": "Restaurant en plein air situé sur les hauteurs de Santa Teresa, offrant une vue imprenable sur la ville.",
           "average_price_per_person": 70,
           "image_url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d5497288fe0040898a180cffca3adea1.jpeg?w=500&h=500&org_if_sml=1"
+        },
+        {
+          "name": "Mee",
+          "description": "Un restaurant asiatique haut de gamme situé au Copacabana Palace, offrant une cuisine fusion avec des influences thaïlandaises, japonaises et vietnamiennes.",
+          "average_price_per_person": 100,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/9b/64/33/caption.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Cipriani",
+          "description": "Un restaurant raffiné situé à l’hôtel Copacabana Palace, offrant une cuisine italienne traditionnelle avec une touche de sophistication et des produits de qualité.",
+          "average_price_per_person": 110,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/99/52/ec/hotel-cipriani-restaurant.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -230,15 +398,27 @@
       "hotels": [
         {
           "name": "Sofitel Rabat Jardin des Roses",
-          "description": "Hôtel élégant avec de magnifiques jardins et un spa de luxe.",
-          "price_per_night": 250,
+          "description": "Hôtel boutique de charme avec piscine à débordement, situé dans le quartier historique de Santa Teresa.",
+          "price_per_night": 180,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/500149306.jpg?k=028756d65d13331145d4bd28ef72071f4531869cd02e3879a107f120d944a592&o=&hp=1"
         },
         {
           "name": "La Tour Hassan Palace",
-          "description": "Un hôtel historique 5 étoiles offrant un mélange de tradition marocaine et de luxe moderne.",
-          "price_per_night": 300,
+          "description": "Hôtel moderne en bord de plage, offrant une vue magnifique sur l'océan Atlantique.",
+          "price_per_night": 200,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422806203.jpg?k=27b76d270b88d1dce4da448b3870eb3b3ea2c28d2cf89ab245f8e6f09acc8fb8&o=&hp=1"
+        },
+        {
+          "name": "Rabat Marriott Hotel",
+          "description": "Hôtel moderne avec piscine extérieure et centre de bien-être, situé près du centre des affaires et de la médina.",
+          "price_per_night": 180,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/456067560.jpg?k=2c538242516c54aec6acb2ae9a2eaaad36ae5bf4678dda7941c57abf0e5068bd&o="
+        },
+        {
+          "name": "Le Diwan Rabat - MGallery",
+          "description": "Hôtel moderne 4 étoiles offrant un confort raffiné, à proximité des attractions principales de Rabat.",
+          "price_per_night": 170,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/227291248.jpg?k=19ac0cbc04f5e7993ebb3865ceb24d46850b9332b8d8ad3d5b33f8b02a22e38d&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -253,6 +433,18 @@
           "description": "Restaurant authentique servant des plats marocainstraditionnels dans la médina de Rabat.",
           "average_price_per_person": 40,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/11/f7/5e/caption.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "Dinarjat",
+          "description": "Un restaurant marocain traditionnel offrant une expérience culinaire authentique avec des plats locaux préparés dans un cadre charmant et décoré de manière classique.",
+          "average_price_per_person": 35,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/39/9d/7d/repas.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Le Ziryab",
+          "description": "Un restaurant élégant avec une vue imprenable sur la médina, proposant une cuisine marocaine raffinée dans une ambiance chaleureuse et contemporaine.",
+          "average_price_per_person": 50,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/3d/e2/b9/caption.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -271,6 +463,18 @@
           "description": "Hôtel avec vue sur l'océan et restaurant renommé pour sa cuisine locale et internationale.",
           "price_per_night": 180,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/546121831.jpg?k=eed4b939e131f7c92befdd3e0161daf7429004b5a44655ed5f76b1aa01cf8913&o=&hp=1"
+        },
+        {
+          "name": "Hotel Hibiscus Louis",
+          "description": "Hôtel simple et confortable, situé dans un quartier calme de Libreville, offrant des chambres fonctionnelles et un restaurant sur place.",
+          "price_per_night": 150,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/291048376.jpg?k=a5a14f63d60f0ea1a88c1ca1b7a4a529c7ba20c818f43ab39baf018d92d7d554&o=&hp=1"
+        },
+        {
+          "name": "Park Inn by Radisson Libreville",
+          "description": "Hôtel moderne avec des chambres spacieuses, une piscine extérieure, un centre de fitness et plusieurs restaurants, situé près des principales zones d'affaires de Libreville.",
+          "price_per_night": 250,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/232840979.jpg?k=f8d0ebad3bc2c90b34708545763f3dd1392ad0c667d8ed223f9697c2325ac9b2&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -285,6 +489,18 @@
           "description": "Restaurant en bord de mer offrant une vue splendide et une cuisine internationale.",
           "average_price_per_person": 60,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/3f/02/fd/un-diner-sur-la-plage.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Le Bateau Ivre",
+          "description": "Un restaurant gastronomique proposant une fusion de cuisines africaine et internationale. Situé en bord de mer, il offre une vue imprenable sur l'océan.",
+          "average_price_per_person": 50,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/72/26/5a/cuisine-de-qualite-et.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Wapety",
+          "description": "Un restaurant élégant proposant une cuisine française et européenne raffinée. Il est réputé pour sa qualité de service et sa cuisine savoureuse.",
+          "average_price_per_person": 35,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/3d/d2/bb/getlstd-property-photo.jpg?w=900&h=-1&s=1"
         }
       ]
     },
@@ -292,6 +508,18 @@
       "city": "Qatar",
       "id": 10,
       "hotels": [
+        {
+          "name": "The Ritz-Carlton, Doha",
+          "description": "Hôtel de luxe avec une vue sur la mer et des installations de spa haut de gamme.",
+          "price_per_night": 500,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/566883938.jpg?k=a34a342d1fb8e1eba134df90d7dadabaf1775ab64b34076d6a819da33acbbd75&o=&hp=1"
+        },
+        {
+          "name": "Mandarin Oriental, Doha",
+          "description": "Hôtel raffiné au cœur de Doha, offrant un mélange de luxe contemporain et de tradition.",
+          "price_per_night": 450,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/589089243.jpg?k=5e9e98fecc2f2ff17dc3db3dc8770c85d7462960f28f3829273973a10e53e681&o=&hp=1"
+        },
         {
           "name": "The Ritz-Carlton, Doha",
           "description": "Hôtel de luxe avec une vue sur la mer et des installations de spa haut de gamme.",
@@ -317,6 +545,18 @@
           "description": "Restaurant inspiré de l'Asie du Sud-Est avec une ambiance chaleureuse et sophistiquée.",
           "average_price_per_person": 90,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/52/e3/cc/spice-market.jpg?w=1000&h=600&s=1"
+        },
+        {
+          "name": "Nobu Doha",
+          "description": "Un restaurant renommé proposant une cuisine japonaise de haut niveau avec des influences péruviennes, situé dans le prestigieux hôtel Four Seasons de Doha.",
+          "average_price_per_person": 120,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/68/8d/09/main-dining-area.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Wahm Lounge",
+          "description": "Un restaurant décontracté et élégant offrant une expérience culinaire fusion avec des plats contemporains et des saveurs orientales, situé au cœur de Doha.",
+          "average_price_per_person": 60,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/07/98/eb/caption.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -335,6 +575,18 @@
           "description": "Hôtel historique avec une architecture magnifique et une ambiance de l'époque tsariste.",
           "price_per_night": 350,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/26/40/55/entrance--v9371880.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "The Ritz-Carlton",
+          "description": "Hôtel de luxe 5 étoiles situé sur la Place du Kremlin, offrant un spa, une piscine intérieure et des vues imprenables sur la ville.",
+          "price_per_night": 500,
+          "image_url": "https://pix8.agoda.net/hotelImages/6021218/77760221/9c8a36bd52ffa5a2db160bcd3ec939f3.jpg?ca=9&ce=1&s=1024x"
+        },
+        {
+          "name": "Ararat Park Hyatt Moscow",
+          "description": "Hôtel 5 étoiles avec un design élégant, un spa de classe mondiale, un restaurant raffiné, et situé à proximité de la Place Rouge et du Théâtre Bolchoï.",
+          "price_per_night": 450,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/f2/b0/e7/caption.jpg?w=2000&h=-1&s=1"
         }
       ],
       "restaurants": [
@@ -349,6 +601,18 @@
           "description": "Restaurant historique servant des plats russes classiques dans un cadre élégant.",
           "average_price_per_person": 80,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/b6/dd/e0/caption.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Dr. Zhivago",
+          "description": "Un restaurant emblématique inspiré par la culture russe classique, servant des plats traditionnels russes dans une atmosphère élégante et historique.",
+          "average_price_per_person": 70,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/bb/e9/a3/caption.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Vogue Café",
+          "description": "Un restaurant chic et moderne inspiré par le célèbre magazine de mode, offrant une cuisine européenne raffinée dans une ambiance élégante et branchée.",
+          "average_price_per_person": 85,
+          "image_url": "https://www.luxeat.com/wp-content/uploads/2020/11/photo_001_14_22.jpg"
         }
       ]
     },
@@ -367,6 +631,18 @@
           "description": "Hôtel emblématique offrant une vue spectaculaire sur la ville et le mont Fuji.",
           "price_per_night": 650,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/309778911.jpg?k=cc3a0296255b6b6c3962e61b9d92de0d49a03635674e2806b8a69eaefeee92b3&o=&hp=1"
+        },
+        {
+          "name": "Mandarin Oriental Tokyo",
+          "description": "Hôtel de luxe situé dans le quartier de Nihonbashi, offrant un spa, des restaurants étoilés Michelin et des vues spectaculaires sur la ville.",
+          "price_per_night": 700,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/565155821.jpg?k=38f78496a5e7d182cd87ce5e061c07b0650d751aee0b7f0f2e9beb211e1bb072&o=&hp=1"
+        },
+        {
+          "name": "The Tokyo Station Hotel",
+          "description": "Hôtel historique 5 étoiles situé dans la gare de Tokyo, combinant élégance classique et confort moderne avec des chambres spacieuses et plusieurs restaurants.",
+          "price_per_night": 500,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/329152057.jpg?k=0c58750c646cd347200e1191ad8eef06e5852c380155e6a65e26962cdb293228&o="
         }
       ],
       "restaurants": [
@@ -381,6 +657,18 @@
           "description": "Célèbre restaurant de sushi offrant une expérience gastronomique unique.",
           "average_price_per_person": 300,
           "image_url": "https://cpsgygezfa.cloudimg.io/_gm_/6a0cc5bdf20147db935662b545d00a04.jpeg?w=960"
+        },
+        {
+          "name": "Ishikawa",
+          "description": "Un restaurant étoilé au Michelin offrant une expérience kaiseki raffinée avec des plats japonais traditionnels servis dans une ambiance intime et élégante.",
+          "average_price_per_person": 200,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/c3/3c/13/our-dining-table-in-our.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Den",
+          "description": "Un restaurant créatif qui réinvente la cuisine japonaise avec des touches modernes et des saveurs inattendues, tout en conservant l'essence de la tradition.",
+          "average_price_per_person": 150,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/5b/ee/c3/photo0jpg.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -399,6 +687,18 @@
           "description": "Hôtel 5 étoiles offrant un cadre élégant et des équipements haut de gamme.",
           "price_per_night": 250,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/70449612.jpg?k=f53656a4a2e72cd0ec90851b97c6d86fb1a149c244a4f4ff0622d1592ca26260&o=&hp=1"
+        },
+        {
+          "name": "The Diamond Hotel Philippines",
+          "description": "Hôtel élégant avec des chambres spacieuses, un restaurant gastronomique et une vue imprenable sur la baie de Manille.",
+          "price_per_night": 250,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/217546261.jpg?k=2916917154fb04f2730d3c8e38a3038fa4405fb40b299dea487b85ce2645d5c2&o=&hp=1"
+        },
+        {
+          "name": "Shangri-La at the Fort",
+          "description": "Hôtel moderne de luxe situé à Bonifacio Global City, offrant une piscine extérieure, un spa et plusieurs restaurants raffinés.",
+          "price_per_night": 300,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/81288949.jpg?k=37d867436d4a1513368ce1cce6fefd2af413cd7c6fa42f95ddb53e99b140cf86&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -413,6 +713,18 @@
           "description": "Restaurant populaire servant des plats thaïlandais dans un cadre chic et moderne.",
           "average_price_per_person": 40,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/64/f0/bb/photo0jpg.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "Gallery by Chele",
+          "description": "Un restaurant gastronomique innovant offrant une cuisine moderne avec des influences asiatiques et locales, dirigé par le chef Chele Gonzalez, dans un cadre élégant.",
+          "average_price_per_person": 80,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/1f/06/a1/gallery-by-chele.jpg?w=1000&h=-1&s=1g"
+        },
+        {
+          "name": "Toyo Eatery",
+          "description": "Un restaurant primé proposant une fusion créative de la cuisine traditionnelle philippine et de techniques modernes, dans un environnement contemporain et accueillant.",
+          "average_price_per_person": 60,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/86/cd/f7/photo3jpg.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -431,6 +743,18 @@
           "description": "Hôtel offrant des chambres confortables, une piscine et des options de restauration variées.",
           "price_per_night": 180,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/505944943.jpg?k=feae994c92a272e607eb854508fbd4bcff60cc327c06d8f4a9035b431d883854&o=&hp=1"
+        },
+        {
+          "name": "Hotel Avila Caracas",
+          "description": "H Hôtel 4 étoiles situé dans un cadre verdoyant, offrant des chambres confortables, une piscine extérieure et des restaurants locaux.",
+          "price_per_night": 150,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/07/d9/d6/hotel-entrance-and-caracas.jpg?w=600&h=-1&s=1"
+        },
+        {
+          "name": "Eurobuilding Hotel & Suites Caracas",
+          "description": "Hôtel moderne avec des suites luxueuses, un centre de bien-être, une piscine et des restaurants, situé dans le quartier d'El Rosal.",
+          "price_per_night": 180,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/438762135.jpg?k=65e6b12f08351608af25b94e680784e3c4b38311762a873e03f9529a637d73ba&o="
         }
       ],
       "restaurants": [
@@ -445,6 +769,18 @@
           "description": "Restaurant accueillant servant une cuisine vénézuélienne moderne avec une touche traditionnelle.",
           "average_price_per_person": 50,
           "image_url": "https://photo620x400.mnstatic.com/5bfb0e685a4682c3c783b00678d07cdd/restaurant-hajillos.jpg"
+        },
+        {
+          "name": "Restaurante El Palacio de las Merengadas",
+          "description": "Un restaurant populaire à Caracas, connu pour ses plats traditionnels vénézuéliens et ses délicieuses merengadas (boissons sucrées), dans une atmosphère conviviale.",
+          "average_price_per_person": 25,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/30/a0/d4/img-20201017-164112-largejpg.jpg?w=900&h=-1&s=1"
+        },
+        {
+          "name": "Maute Grill",
+          "description": "Maute Grill est réputé pour son délicieux barbecue latino-américain et vénézuélien, offrant des viandes de haute qualité et une excellente expérience culinaire.",
+          "average_price_per_person": 45,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/ee/b4/c3/photo4jpg.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -463,6 +799,18 @@
           "description": "Un hôtel moderne avec des vues panoramiques sur la ville et des chambres élégantes.",
           "price_per_night": 180,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/105176669.jpg?k=49fedb75360e8a7b78351448313f89413fc3bbfb7e0900b8ac81c2fa26bef05d&o=&hp=1"
+        },
+        {
+          "name": "Kempinski Hotel Khan Palace",
+          "description": "Hôtel de luxe avec des chambres modernes, un spa, et un restaurant élégant, situé dans un quartier calme d'Oulan-Bator.",
+          "price_per_night": 180,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/514407222.jpg?k=5b550c996d4ee03e9cd733524fbc06a6287088a35ecda270067ee58cb5c70897&o="
+        },
+        {
+          "name": "Best Western Premier Tuushin Hotel",
+          "description": "Hôtel 4 étoiles offrant des chambres spacieuses, un centre de bien-être, une piscine et un emplacement central près de la place Sukhbaatar.",
+          "price_per_night": 180,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/48741693.jpg?k=3a9bc831d281833ce78cff4fedec126ea093a064eca7fc04f164482325b3b699&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -477,6 +825,18 @@
           "description": "Restaurant servant une cuisine indienne et pakistanaise dans une ambiance chaleureuse.",
           "average_price_per_person": 30,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d4/f9/ed/hazara-north-indian-restaurant.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Modern Nomads",
+          "description": "Un restaurant offrant une cuisine mongole traditionnelle avec une touche moderne, servant des plats à base de viande et de légumes locaux dans une ambiance chaleureuse.",
+          "average_price_per_person": 20,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/da/7e/d8/caption.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "The Lounge",
+          "description": "Un restaurant moderne et élégant proposant une fusion de cuisines asiatique et internationale, offrant une expérience culinaire raffinée au cœur d'Oulan-Bator.",
+          "average_price_per_person": 30,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/16/81/15/vip-2-room.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -495,6 +855,18 @@
           "description": "Appartements élégants au cœur historique d'Édimbourg.",
           "price_per_night": 600,
           "image_url": "https://www.chevalcollection.com/wp-content/uploads/2022/11/COTC-The-Royal-Mile-view-1.jpg"
+        },
+        {
+          "name": "Waldorf Astoria Edinburgh - The Caledonian",
+          "description": "Hôtel 5 étoiles avec spa, restaurant étoilé, situé près du château d'Édimbourg.",
+          "price_per_night": 300,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/474311364.jpg?k=adeca37588e2646927741a9d1165ccd8279cfc41ba530d5610e9ebe4a96ca601&o=&hp=1"
+        },
+        {
+          "name": "The Scotsman Hotel",
+          "description": "Hôtel historique avec spa, situé au cœur de la vieille ville d’Édimbourg.",
+          "price_per_night": 200,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/94319636.jpg?k=0b7ad1dbbb57c00aa9000d1c4777cd3b26968f7624f21649a5aa55897c9d6513&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -509,6 +881,18 @@
           "description": "Cuisine écossaise moderne avec produits locaux.",
           "average_price_per_person": 130,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/75/bb/84/timberyard-tables-and.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "The Kitchin",
+          "description": "Un restaurant étoilé au Michelin servant une cuisine écossaise moderne avec des produits locaux de saison, dans un cadre élégant et raffiné.",
+          "average_price_per_person": 90,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/6c/52/22/caption.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Restaurant Martin Wishart",
+          "description": "Un restaurant gastronomique proposant une cuisine française contemporaine avec des influences écossaises, dans un cadre chic et intime au bord de la mer.",
+          "average_price_per_person": 120,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/78/67/14/restaurant-martin-wishart.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -527,6 +911,18 @@
           "description": "Hôtel en bord de mer avec chambres confortables et vue sur l’océan.",
           "price_per_night": 120,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/e5/9d/3f/piscine.jpg?w=2400&h=-1&s=1"
+        },
+        {
+          "name": "Mantasaly Resort",
+          "description": "Hôtel situé sur la plage avec des bungalows, une piscine, et des activités nautiques.",
+          "price_per_night": 180,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/68/92/a0/bird-s-view-over-the.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "Hotel Le Reine Jane",
+          "description": "Hôtel confortable offrant des chambres simples et un restaurant, situé à quelques minutes du centre-ville.",
+          "price_per_night": 120,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a5/63/24/hotel-restaurant-la-reine.jpg?w=2000&h=-1&s=1"
         }
       ],
       "restaurants": [
@@ -541,6 +937,18 @@
           "description": "Cuisine fusion avec spécialités de fruits de mer face à la mer.",
           "average_price_per_person": 30,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/7d/76/75/20160810-183423-largejpg.jpg?w=2000&h=-1&s=1"
+        },
+        {
+          "name": "La Cambusa",
+          "description": "Un restaurant populaire à Antsiranana offrant une délicieuse cuisine italienne et française, ainsi que des fruits de mer frais.",
+          "average_price_per_person": 25,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/d0/5d/93/caption.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Su e Giu",
+          "description": "Un restaurant italien très apprécié à Antsiranana, connu pour ses pizzas artisanales et ses plats italiens classiques.",
+          "average_price_per_person": 25,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/93/b5/5e/caption.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -559,6 +967,18 @@
           "description": "Hôtel élégant et abordable près du Zócalo avec terrasse panoramique.",
           "price_per_night": 150,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/9d/cc/b6/caption.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "Sheraton Mexico City Maria Isabel",
+          "description": "Hôtel de luxe avec piscine et restaurants, situé sur Paseo de la Reforma.",
+          "price_per_night": 250,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/598530622.jpg?k=11cc6a7fe3e1dbc5db8e458a9e54f2f5faec53d120c30338a5d03b03a6a6381b&o=&hp=1"
+        },
+        {
+          "name": "St. Regis Mexico City",
+          "description": "Hôtel 5 étoiles avec spa, chambres élégantes et restaurants raffinés, sur Paseo de la Reforma.",
+          "price_per_night": 400,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/555853443.jpg?k=580adae73b295fab212eaaaf5e7ec187aaa1660a78837dd9f3f21d1ef615dc91&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -573,6 +993,18 @@
           "description": "Restaurant de fruits de mer frais et plats mexicains modernes.",
           "average_price_per_person": 70,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/40/e7/22/inside.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "Quintonil",
+          "description": "Un restaurant de renommée internationale, dirigé par le chef Jorge Vallejo, proposant une cuisine mexicaine inventive avec des produits de saison.",
+          "average_price_per_person": 130,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/7e/64/80/quintonil.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Azul Histórico",
+          "description": "Un restaurant élégant situé dans un magnifique bâtiment colonial, offrant une cuisine mexicaine traditionnelle revisitées avec des ingrédients locaux de saison.",
+          "average_price_per_person": 60,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/31/96/54/caption.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -591,6 +1023,18 @@
           "description": "Hôtel sophistiqué avec vue panoramique sur la mer et un service exceptionnel.",
           "price_per_night": 400,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/25339753.jpg?k=42a6601d184ad9e3fe25ec0d15a8605b7e135142479ae42a6265231dca33191f&o=&hp=1"
+        },
+        {
+          "name": "The St. Regis Mumbai",
+          "description": "The St. Regis Mumbai est un hôtel luxueux cinq étoiles, alliant élégance moderne et hospitalité indienne, idéalement situé à Lower Parel, Mumbai.",
+          "price_per_night": 350,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/103705059.jpg?k=9e078265b31ad1815a573da8ed2a665f863e3925e1efd730df703421868a2ada&o=&hp=1"
+        },
+        {
+          "name": "Trident, Nariman Point",
+          "description": "Hôtel moderne avec vue sur la mer, piscine extérieure et restaurants, situé à Nariman Point.",
+          "price_per_night": 300,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/604298804.jpg?k=cce8e6992a6c78904e7a67b9611da9a34ed490aada9e82aa865b70f308200755&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -605,6 +1049,18 @@
           "description": "Cuisine italienne et méditerranéenne raffinée dans un cadre élégant.",
           "average_price_per_person": 100,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/6e/f2/10/la-salle-comble.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "The Bombay Canteen",
+          "description": "Un restaurant moderne proposant une cuisine indienne créative avec des influences contemporaines, mettant en valeur des ingrédients locaux dans un cadre élégant.",
+          "average_price_per_person": 40,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/b1/66/ab/caption.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "Wasabi by Morimoto",
+          "description": "Un restaurant japonais haut de gamme dirigé par le célèbre chef Masaharu Morimoto, offrant une cuisine japonaise raffinée dans une ambiance chic et moderne.",
+          "average_price_per_person": 100,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/29/32/3d/photo0jpg.jpg?w=1000&h=-1&s=1"
         }
       ]
     },
@@ -623,6 +1079,18 @@
           "description": "Hôtel chic avec design élégant, spa et restaurants raffinés.",
           "price_per_night": 400,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/483808919.jpg?k=a1f0045e981783abbcaabb766745e731d0d21f3d54fb3256af7eac51776f73d4&o=&hp=1"
+        },
+        {
+          "name": "The Ritz-Carlton Beijing",
+          "description": "Hôtel de luxe avec spa, piscine et restaurants raffinés, situé dans le quartier de Chaoyang.",
+          "price_per_night": 350,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/472689751.jpg?k=10e4ba33dcb1ea51706e94507c6c4aa1b520dfd11ab66e663d06eb1ff1e675c0&o=&hp=1"
+        },
+        {
+          "name": "Park Plaza Beijing Wangfujing",
+          "description": "Hôtel moderne avec chambres spacieuses, situé près de la rue commerçante Wangfujing.",
+          "price_per_night": 200,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/348173997.jpg?k=edf47bdfb552ae87a2edccaf3e2a1e131dbd999c392fd413461608dd8276dd7f&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -637,6 +1105,18 @@
           "description": "Cuisine chinoise traditionnelle dans une ambiance décontractée.",
           "average_price_per_person": 30,
           "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/FIDAwKfE0QI9mrfjCPB2fg/o.jpg"
+        },
+        {
+          "name": "Made in China",
+          "description": "Un restaurant raffiné servant des plats chinois authentiques, avec une attention particulière aux ingrédients frais et aux techniques de cuisson traditionnelles.",
+          "average_price_per_person": 70,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/cc/e2/d5/caption.jpg?w=1000&h=-1&s=1"
+        },
+        {
+          "name": "TRB Forbidden City",
+          "description": "Un restaurant haut de gamme offrant une cuisine européenne moderne, avec une influence asiatique subtile, dans un cadre élégant à proximité de la Cité Interdite.",
+          "average_price_per_person": 120,
+          "image_url": "https://www.remotelands.com/travelogues/app/uploads/2017/08/beijing1-1280x640.jpg"
         }
       ]
     },
@@ -655,6 +1135,18 @@
           "description": "Boutique hôtel élégant dans le quartier artistique de Barranco, avec une atmosphère chic.",
           "price_per_night": 300,
           "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/18517320.jpg?k=d504546b362bd4f88fe90d58b47e7b2c8c0b904ca6bb99e01ed6536a2df35385&o=&hp=1"
+        },
+        {
+          "name": "The Westin Lima Hotel & Convention Center",
+          "description": "Hôtel 5 étoiles avec spa et piscine",
+          "price_per_night": 250,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543947024.jpg?k=f7932dedca5d80f95a00bb1a423ff4eca2f5ead980a20fe099bbb9ce71837a36&o=&hp=1"
+        },
+        {
+          "name": "Hotel Estelar Miraflores",
+          "description": "Hôtel moderne avec piscine sur le toit.",
+          "price_per_night": 180,
+          "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/295993134.jpg?k=9b3ab86c14ece157a1d844115413cfdd89e21e4299115d24664c690c75217412&o=&hp=1"
         }
       ],
       "restaurants": [
@@ -669,6 +1161,18 @@
           "description": "Cuisine chinoise traditionnelle dans une ambiance décontractée.",
           "average_price_per_person": 150,
           "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/05/0b/76/caption.jpg?w=1400&h=-1&s=1"
+        },
+        {
+          "name": "Astrid y Gastón",
+          "description": "Un restaurant emblématique dirigé par le chef Gastón Acurio, offrant une cuisine péruvienne moderne avec des influences internationales.",
+          "average_price_per_person": 100,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/15/dd/d3/caption.jpg?w=1200&h=-1&s=1"
+        },
+        {
+          "name": "Osso",
+          "description": "Un restaurant spécialisé dans la viande, avec une approche innovante et une qualité de produits exceptionnels.",
+          "average_price_per_person": 90,
+          "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/8a/98/30/caption.jpg?w=1000&h=-1&s=1"
         }
       ]
     }

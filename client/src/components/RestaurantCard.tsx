@@ -33,27 +33,40 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
   return (
     <>
       <article className="card">
-        <div className="restaurant-details">
-          <img
-            src={currentRestaurant.image_url}
-            alt={currentRestaurant.name}
-            className="booking-card-img"
-          />
+        <img
+          src={currentRestaurant.image_url}
+          alt={currentRestaurant.name}
+          className="booking-card-img"
+        />
+
+        <div className="description">
           <h2>{currentRestaurant.name}</h2>
-          <p>{currentRestaurant.description}</p>
+          <p className="card-description">{currentRestaurant.description}</p>
           <p>{currentRestaurant.average_price_per_person}€</p>
         </div>
 
         <div className="navigation-buttons">
-          <button type="button" onClick={handlePreviousRestaurant}>
+          <button
+            className="button-previous"
+            type="button"
+            onClick={handlePreviousRestaurant}
+          >
             Précédent
           </button>
-          <button type="button" onClick={handleNextRestaurant}>
+          <button
+            className="button-next"
+            type="button"
+            onClick={handleNextRestaurant}
+          >
             Suivant
           </button>
         </div>
 
-        <button type="button" onClick={handleCLickPopup}>
+        <button
+          className="button-reservation"
+          type="button"
+          onClick={handleCLickPopup}
+        >
           Reservez
         </button>
 
@@ -81,7 +94,11 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
                 <input type="time" className="vacationHour" />
               </label>
               <p className="prix">Prix :</p>
-              <button type="button" onClick={handleCLickPopup}>
+              <button
+                className="button-reservation"
+                type="button"
+                onClick={handleCLickPopup}
+              >
                 Valider
               </button>
             </div>

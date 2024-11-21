@@ -47,19 +47,11 @@
 }
 
 .input {
-  width: 12%;
+  width: 100%;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
   border: 1px solid #36736e;
-}
-
-.input-contact {
-  width: 30%;
-  padding: 40px;
-  border-radius: 10px;
-  border: 1px solid #36736e;
-  margin-bottom: 20px;
 }
 
 .button {
@@ -68,4 +60,13 @@
   padding: 6px;
   border-color: #36736e;
   box-shadow: 0 0 2px #36736e;
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  height: 4rem;
 }

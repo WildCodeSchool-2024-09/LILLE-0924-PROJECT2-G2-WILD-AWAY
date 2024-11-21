@@ -37,18 +37,34 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
           alt={currentHotel.name}
           className="booking-card-img"
         />
-        <h2>{currentHotel.name}</h2>
-        <p>{currentHotel.description}</p>
-        <p>{currentHotel.price_per_night}€</p>
+
+        <div className="description">
+          <h2>{currentHotel.name}</h2>
+          <p className="card-description">{currentHotel.description}</p>
+          <p>{currentHotel.price_per_night}€</p>
+        </div>
+
         <div className="navigation-buttons">
-          <button type="button" onClick={handlePreviousHotel}>
+          <button
+            className="button-previous"
+            type="button"
+            onClick={handlePreviousHotel}
+          >
             Précédent
           </button>
-          <button type="button" onClick={handleNextHotel}>
+          <button
+            className="button-next"
+            type="button"
+            onClick={handleNextHotel}
+          >
             Suivant
           </button>
         </div>
-        <button type="button" onClick={handleCLickPopup}>
+        <button
+          className="button-reservation"
+          type="button"
+          onClick={handleCLickPopup}
+        >
           Reservez
         </button>
       </article>
@@ -67,17 +83,16 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
             </label>
             <label htmlFor="vacationDate">
               Pour quelle dates ? :{" "}
-              <img
-                className="img-popup-hotel"
-                src="../hotel-popup.png"
-                alt=""
-              />
               <input type="date" className="vacationDate" />
               au
               <input type="date" className="vacationDate" />
             </label>
             <p>Prix :</p>
-            <button type="button" onClick={handleCLickPopup}>
+            <button
+              className="button-reservation"
+              type="button"
+              onClick={handleCLickPopup}
+            >
               Valider
             </button>
           </div>

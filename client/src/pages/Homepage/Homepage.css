@@ -43,4 +43,5 @@ body {
   background-color: #36736e;
   border-radius: 5%;
   width: 30%;
+  min-height: 270px;
 }
