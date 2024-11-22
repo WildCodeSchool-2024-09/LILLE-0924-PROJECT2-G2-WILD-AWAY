@@ -46,21 +46,12 @@ h1 {
   width: 200px;
 }
 
-.hotel-popup {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  position: absolute;
-  top: 10%;
-  left: 30%;
-  width: 40%;
-  height: 70%;
-  color: black;
-}
+/* POPUP SECTION */
 
 .popup-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
   position: fixed;
   top: 0;
   left: 0;
@@ -71,38 +62,73 @@ h1 {
   z-index: 999;
 }
 
-.restaurant-popup {
+.popup-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background-color: white;
-  position: absolute;
-  top: 10%;
-  left: 30%;
-  width: 40%;
-  height: 70%;
+  position: fixed;
   color: black;
 }
 
-.popup-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+.popup-input {
+  width: 70%;
+  margin: 1rem;
+  text-align: center;
+  height: 2rem;
+}
+.popup-title {
+  margin: 0;
+  padding: 2rem;
+  background-image: linear-gradient(135deg, #f8b500 50%, #fceabb 90%);
 }
 
-.vacationDate {
-  margin: 2rem;
-  width: 90%;
-}
-
-.personNumber {
-  margin: 2rem;
-  width: 10%;
+.popup-text {
   font-size: 1rem;
 }
+
+.price {
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.img-popup-restaurant {
+  width: 5rem;
+  transform: rotate(30deg);
+  margin: 1rem;
+}
+
+.img-popup-hotel {
+  width: 5rem;
+  margin: 1rem;
+}
+
+.button-reservation {
+  margin: 1rem;
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-size: 120% auto;
+  background-image: linear-gradient(135deg, #f8b500 50%, #fceabb 90%);
+}
+.button-reservation:hover {
+  background-position: right center;
+}
+.button-reservation:active {
+  top: 2px;
+}
+/* POPUP SECTION */
 
 .slider {
   height: 90%;
@@ -179,51 +205,6 @@ h1 {
   padding: 15px;
 }
 
-.vacationDate-container {
-  padding-right: 11%;
-}
-
-.vacationHour {
-  width: 30%;
-  margin: 2rem;
-}
-
-.vacationHour-container {
-  padding-right: 15%;
-}
-
-.title-color {
-  width: 100%;
-  background-image: linear-gradient(135deg, #f8b500 50%, #fceabb 90%);
-  color: #e8e1d4;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 20px;
-  margin-left: 0;
-  margin-top: -20%;
-  margin-bottom: 2%;
-  border-radius: 10px 10px 0 0;
-}
-
-.prix {
-  margin-top: -3%;
-}
-
-.img-popup-restaurant {
-  position: absolute;
-  width: 5rem;
-  top: 80%;
-  right: 75%;
-  transform: rotate(30deg);
-}
-
-.img-popup-hotel {
-  position: absolute;
-  width: 4.5rem;
-  top: 15%;
-  right: 15%;
-}
-
 .button-next,
 .button-previous {
   min-width: 130px;
@@ -286,37 +267,4 @@ h1 {
   overflow: scroll;
   max-height: 150px;
   min-height: 50px;
-}
-
-.button-reservation {
-  background-color: #6f4d38;
-  color: #e8e1d4;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin: 1rem;
-  cursor: pointer;
-}
-
-.button-reservation {
-  min-width: 130px;
-  height: 40px;
-  color: #fff;
-  padding: 5px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 5px;
-  border: none;
-  background-size: 120% auto;
-  background-image: linear-gradient(135deg, #f8b500 50%, #fceabb 90%);
-}
-.button-reservation:hover {
-  background-position: right center;
-}
-.button-reservation:active {
-  top: 2px;
 }
