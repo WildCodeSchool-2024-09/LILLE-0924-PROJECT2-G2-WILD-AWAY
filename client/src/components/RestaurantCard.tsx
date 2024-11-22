@@ -40,7 +40,9 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
             className="booking-card-img"
           />
           <h2>{currentRestaurant.name}</h2>
-          <p>{currentRestaurant.description}</p>
+          <p className="booking-car-description">
+            {currentRestaurant.description}
+          </p>
           <p>{currentRestaurant.average_price_per_person}€</p>
         </div>
 

@@ -38,7 +38,7 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
           className="booking-card-img"
         />
         <h2>{currentHotel.name}</h2>
-        <p>{currentHotel.description}</p>
+        <p className="booking-car-description">{currentHotel.description}</p>
         <p>{currentHotel.price_per_night}€</p>
         <div className="navigation-buttons">
           <button type="button" onClick={handlePreviousHotel}>
