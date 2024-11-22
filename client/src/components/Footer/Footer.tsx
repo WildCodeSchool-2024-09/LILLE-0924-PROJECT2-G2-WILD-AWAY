@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer>
-      <section className="footer">
+      <section>
         <div className="reseau">
           <img src="/twitter.png" className="logo" alt="logo de Twitter" />{" "}
           @WildAway
