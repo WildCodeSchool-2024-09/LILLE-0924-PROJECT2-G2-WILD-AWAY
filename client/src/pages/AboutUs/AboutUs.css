@@ -70,3 +70,14 @@
 .contact {
   height: 4rem;
 }
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .img-dream-team {
+    width: 90%;
+    height: 220px;
+  }
+}
