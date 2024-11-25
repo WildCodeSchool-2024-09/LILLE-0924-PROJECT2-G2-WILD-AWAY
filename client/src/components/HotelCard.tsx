@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { UseTheme } from "../services/ThemeContext";
 
 interface BookingData {
   hotels: {
@@ -29,9 +30,11 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
     );
   };
 
+  const themeContext = UseTheme();
+  const theme = themeContext ? themeContext.theme : "default-theme";
   return (
     <>
-      <article className="card">
+      <article className={`card ${theme}`}>
         <img
           src={currentHotel.image_url}
           alt={currentHotel.name}

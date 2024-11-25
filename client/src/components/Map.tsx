@@ -7,6 +7,7 @@ import {
   Marker,
   ZoomableGroup,
 } from "react-simple-maps";
+import { UseTheme } from "../services/ThemeContext";
 import Markers from "./Markers";
 
 function MapElement() {
@@ -15,6 +16,8 @@ function MapElement() {
     navigate(`/booking/${cityId}`);
   };
   const [content, setContent] = useState("");
+  const themeContext = UseTheme();
+  const theme = themeContext ? themeContext.theme : "light";
   return (
     <>
       <div style={{ display: "flex", justifyContent: "center" }}>
@@ -52,7 +55,7 @@ function MapElement() {
                           outline: "none",
                         },
                         hover: {
-                          fill: "#A306B6",
+                          fill: "#36736e",
                           outline: "none",
                         },
                         pressed: {
@@ -76,9 +79,10 @@ function MapElement() {
                   <text
                     textAnchor="middle"
                     y={markerOffSet}
+                    className={`card-cites ${theme}`}
                     style={{
                       fontFamily: "system-ui",
-                      fill: "black",
+                      fill: theme === "dark" ? "white" : "black",
                       fontSize: 14,
                     }}
                   >

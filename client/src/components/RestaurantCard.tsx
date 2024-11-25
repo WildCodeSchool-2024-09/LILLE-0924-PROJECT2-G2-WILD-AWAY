@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { UseTheme } from "../services/ThemeContext";
 
 interface BookingData {
   restaurants: {
@@ -11,7 +12,6 @@ interface BookingData {
 
 function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
   const restaurants = bookingData.restaurants;
-
   const [popupVisible, setPopupVisible] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const currentRestaurant = restaurants[currentIndex];
@@ -30,9 +30,11 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
     );
   };
 
+  const themeContext = UseTheme();
+  const theme = themeContext ? themeContext.theme : "default-theme";
   return (
     <>
-      <article className="card">
+      <article className={`card ${theme}`}>
         <img
           src={currentRestaurant.image_url}
           alt={currentRestaurant.name}
