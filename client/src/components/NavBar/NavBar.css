@@ -6,9 +6,9 @@
 nav {
   display: flex;
   width: 98%;
-  background-color: #36736e;
+  background-color: var(--secondary-color);
   font-size: 1.1rem;
-  color: #e8e1d4;
+  color: var(--main-color);
   justify-content: space-between;
   padding-right: 1%;
   padding-left: 1%;
@@ -21,7 +21,7 @@ nav {
 }
 
 .links-nav {
-  margin-right: 5rem;
+  margin-right: 1.3rem;
   display: flex;
   align-items: center;
   list-style: none;
@@ -30,5 +30,20 @@ nav {
 
 a {
   text-decoration: none;
-  color: #e8e1d4;
+  color: var(--main-color);
+}
+
+.img-darkMode {
+  width: 3%;
+  height: 2%;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.light {
+  background-color: var(--secondary-color);
+}
+
+.dark {
+  background-color: var(--secondary-color-dark);
 }

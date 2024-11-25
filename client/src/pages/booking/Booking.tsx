@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import HotelCard from "../../components/HotelCard";
 import RestaurantCard from "../../components/RestaurantCard";
 import "./booking.css";
+import { UseTheme } from "../../services/ThemeContext";
 
 interface BookingData {
   city: string;
@@ -23,6 +24,8 @@ interface BookingData {
 function Booking() {
   const { id } = useParams();
   const [bookingData, setBookingData] = useState<BookingData | null>(null);
+  const themeContext = UseTheme();
+  const theme = themeContext ? themeContext.theme : "light";
 
   useEffect(() => {
     fetch(`http://localhost:3310/api/booking/${id}`)
@@ -35,9 +38,9 @@ function Booking() {
   return (
     <>
       {bookingData && (
-        <>
+        <main className={theme}>
           <h1>{bookingData.city}</h1>
-          <main className="booking-main">
+          <section className={`booking-main ${theme}`}>
             <div className="sliders">
               <div className="slides-track">
                 <div className="slides">
@@ -85,11 +88,11 @@ function Booking() {
               </div>
             </div>
 
-            <section>
+            <section className="hotel-card-section">
               <HotelCard bookingData={bookingData} />
             </section>
 
-            <section>
+            <section className="restaurant-card-section">
               <RestaurantCard bookingData={bookingData} />
             </section>
 
@@ -139,8 +142,8 @@ function Booking() {
                 </div>
               </div>
             </div>
-          </main>
-        </>
+          </section>
+        </main>
       )}
     </>
   );
