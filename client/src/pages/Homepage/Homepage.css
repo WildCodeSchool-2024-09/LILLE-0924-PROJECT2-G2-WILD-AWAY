@@ -35,7 +35,7 @@ body {
   height: 150px;
   width: 150px;
 }
-.test {
+.homepage-cards {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -61,4 +61,33 @@ body {
 
 .light.homepage-main {
   background-color: var(--main-color);
+
+@media only screen and (max-device-width: 480px) {
+  .homepage-title {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  .homepage-subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .homepage-text {
+    font-size: 1rem;
+  }
+  .homepage-card-container {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 16px;
+  }
+  .homepage-cards {
+    width: 70%;
+    gap: 16px;
+  }
+  .icon-container {
+    height: 125px;
+    width: 125px;
+  }
+
 }
