@@ -14,14 +14,6 @@ nav {
   height: 10%;
 }
 
-.light {
-  background-color: var(--secondary-color);
-}
-
-.dark {
-  background-color: var(--secondary-color-dark);
-}
-
 .logo-nav {
   width: 8rem;
   height: 5rem;
@@ -43,4 +35,12 @@ a {
   height: 2%;
   margin-top: 1rem;
   cursor: pointer;
+}
+
+.light {
+  background-color: var(--secondary-color);
+}
+
+.dark {
+  background-color: var(--secondary-color-dark);
 }

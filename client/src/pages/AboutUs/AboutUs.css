@@ -69,12 +69,8 @@
   box-shadow: 0 0 2px var(--secondary-color);
 }
 
-.light {
-  box-shadow: 0 0 10px white;
-  border: 2px solid var(--secondary-color);
-}
-
 .dark {
-  box-shadow: 0 0 10px var(--secondary-color-dark);
-  border: 2px solid var(--secondary-color-dark);
+  /* box-shadow: 0 0 10px var(--secondary-color-dark); */
+  /* border: 2px solid var(--secondary-color-dark); */
+  background: var(--main-color);
 }

@@ -4,10 +4,11 @@ import { UseTheme } from "../../services/ThemeContext";
 
 function Homepage() {
   const themeContext = UseTheme();
-  const theme = themeContext ? themeContext.theme : "defaultTheme";
+  const theme = themeContext ? themeContext.theme : "light";
+  // const setTheme = themeContext ? themeContext.theme : "defaultTheme";
 
   return (
-    <main className="homepage-main">
+    <main className={`homepage-main ${theme}`}>
       <div className="div-title">
         <h1 className="homepage-title">
           Planifie les meilleures vacances possible

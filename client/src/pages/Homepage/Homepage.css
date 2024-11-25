@@ -46,10 +46,19 @@ body {
   min-height: 270px;
 }
 
-.light {
+.light.test {
   background-color: var(--secondary-color);
 }
 
-.dark {
+.dark.test {
   background-color: var(--secondary-color-dark);
+}
+
+.dark.homepage-main {
+  background-color: var(--main-color-dark);
+  color: var(--main-color);
+}
+
+.light.homepage-main {
+  background-color: var(--main-color);
 }

@@ -13,10 +13,11 @@ html {
   font-size: 1.3rem;
   color: white;
 }
+
 h1 {
   text-align: center;
   padding: 1rem;
-  margin: 1rem;
+  margin: 0;
   text-shadow: 2px 2px var(--secondary-color);
   border-radius: 10px;
 }
@@ -253,4 +254,21 @@ h1 {
 
 .dark {
   background-color: var(--secondary-color-dark);
+}
+
+.light.booking-main {
+  background-color: var(--main-color);
+}
+
+.dark.booking-main {
+  background-color: var(--main-color-dark);
+}
+
+main.light {
+  background-color: var(--main-color);
+}
+
+main.dark {
+  background-color: var(--main-color-dark);
+  color: white;
 }

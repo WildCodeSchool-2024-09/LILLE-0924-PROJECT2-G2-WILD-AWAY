@@ -1,36 +1,10 @@
 :root {
   --main-color: #e8e1d4;
   --secondary-color: #36736e;
-  --main-color-dark: black;
-  --secondary-color-dark: #73366e;
+  --main-color-dark: #171a1b;
+  --secondary-color-dark: #1a4542;
 }
 
 body {
   background-color: var(--main-color);
 }
-
-/* .light {
-
-  var(--main-color): 'red';
-  --
-} */
-
-/* .dark {
-  display: flex;
-  width: 98%;
-  background-color: black;
-  font-size: 1.1rem;
-  color: var(--main-color);
-  justify-content: space-between;
-  padding-right: 1%;
-  padding-left: 1%;
-  height: 10%;
-}
-
-.dark-mode {
-  background-color: black;
-}
-
-.img-darkMode {
-  width: 3%;
-} */
