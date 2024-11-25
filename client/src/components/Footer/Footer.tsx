@@ -1,8 +1,12 @@
 import "./Footer.css";
+import { UseTheme } from "../../services/ThemeContext";
 
 function Footer() {
+  const themeContext = UseTheme();
+  const theme = themeContext ? themeContext.theme : "defaultTheme";
+
   return (
-    <footer>
+    <footer className={theme}>
       <section>
         <div className="reseau">
           <img src="/twitter.png" className="logo" alt="logo de Twitter" />{" "}

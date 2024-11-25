@@ -1,5 +1,6 @@
 import { createContext } from "react";
 import { useState } from "react";
+import { useContext } from "react";
 
 export const ThemeContext = createContext<ThemeContextProps | null>(null);
 
@@ -17,3 +18,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     </ThemeContext.Provider>
   );
 }
+
+export const UseTheme = () => {
+  return useContext(ThemeContext);
+};

@@ -8,12 +8,11 @@ html {
 .booking-main {
   display: flex;
   justify-content: center;
+  height: 600px;
   font-family: "Parkinsans", sans-serif;
   font-size: 1.3rem;
   color: white;
-  height: 600px;
 }
-
 h1 {
   text-align: center;
   padding: 1rem;
@@ -21,14 +20,13 @@ h1 {
   text-shadow: 2px 2px var(--secondary-color);
   border-radius: 10px;
 }
-
 .card {
   width: 18rem;
   height: 80%;
   text-align: center;
   margin: 2rem;
   padding: 1rem;
-  box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 10px 2px #153a37;
   background-color: var(--secondary-color);
   border-radius: 10px;
   display: flex;
@@ -37,7 +35,6 @@ h1 {
   align-items: center;
   min-height: 510px;
 }
-
 .booking-card-img {
   border-radius: 100px;
   padding: 0.3rem;
@@ -45,42 +42,11 @@ h1 {
   height: 200px;
   width: 200px;
 }
-
-.booking-car-description {
-  overflow: scroll;
-}
-
-button {
-  padding: 0.6rem;
-  background-color: var(--main-color);
-  box-shadow: 5px 5px 5px 2px #000000;
-  font-weight: bold;
-  border-radius: 100px;
-  border: 2px solid #3a1c0b;
-  margin-top: 1rem;
-}
-
-button:hover {
-  color: var(--main-color);
-  background-color: #6f4d38;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
-.hotel-popup {
+/* POPUP SECTION */
+.popup-overlay {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  position: absolute;
-  top: 10%;
-  left: 30%;
-  width: 40%;
-  height: 70%;
-}
-
-.popup-overlay {
+  align-items: inherit;
   position: fixed;
   top: 0;
   left: 0;
@@ -90,39 +56,67 @@ button:hover {
   backdrop-filter: blur(8px);
   z-index: 999;
 }
-
-.restaurant-popup {
+.popup-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background-color: white;
-  position: absolute;
-  top: 20%;
-  left: 30%;
-  width: 40%;
-  height: 60%;
+  position: fixed;
+  color: black;
 }
-
-.popup-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+.popup-input {
+  width: 70%;
+  margin: 1rem;
+  text-align: center;
+  height: 2rem;
 }
-
-.vacationDate {
-  margin: 2rem;
-  width: 90%;
+.popup-title {
+  margin: 0;
+  padding: 2rem;
+  background-image: linear-gradient(135deg, #f8b500 50%, #fceabb 90%);
 }
-
-.personNumber {
-  margin: 2rem;
-  width: 10%;
+.popup-text {
   font-size: 1rem;
 }
-
+.price {
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.img-popup-restaurant {
+  width: 5rem;
+  transform: rotate(30deg);
+  margin: 1rem;
+}
+.img-popup-hotel {
+  width: 5rem;
+  margin: 1rem;
+}
+.button-reservation {
+  margin: 1rem;
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-size: 120% auto;
+  background-image: linear-gradient(135deg, #f8b500 50%, #fceabb 90%);
+}
+.button-reservation:hover {
+  background-position: right center;
+}
+.button-reservation:active {
+  top: 2px;
+}
+/* POPUP SECTION */
 .slider {
   height: 90%;
   margin: auto;
@@ -132,7 +126,6 @@ button:hover {
   place-items: center;
   overflow: hidden;
 }
-
 .slide-track {
   display: flex;
   flex-direction: column;
@@ -140,7 +133,6 @@ button:hover {
   animation: scroll 40s linear infinite;
   overflow: hidden;
 }
-
 @keyframes scroll {
   0% {
     transform: translateY(0);
@@ -149,20 +141,18 @@ button:hover {
     transform: translateY(calc(-250px * 3));
   }
 }
-
 .slide {
-  height: 200px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
+  max-width: 280px;
   display: flex;
   align-items: center;
   padding: 15px;
 }
-
 .img-slide {
   width: 100%;
   padding: 1rem;
 }
-
 .sliders {
   height: 90%;
   margin: auto;
@@ -172,7 +162,6 @@ button:hover {
   place-items: center;
   overflow: hidden;
 }
-
 .slides-track {
   display: flex;
   flex-direction: column;
@@ -180,7 +169,6 @@ button:hover {
   animation: scrolls 40s linear infinite;
   overflow: hidden;
 }
-
 @keyframes scrolls {
   0% {
     transform: translateY(calc(-250px * 3));
@@ -189,56 +177,80 @@ button:hover {
     transform: translateY(0);
   }
 }
-
 .slides {
-  height: 200px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
+  max-width: 280px;
   display: flex;
   align-items: center;
   padding: 15px;
 }
-
-.vacationDate-container {
-  padding-right: 11%;
-}
-
-.vacationHour {
-  width: 110%;
-  margin: 2rem;
-}
-
-.vacationHour-container {
-  padding-right: 15%;
-}
-
-.title-color {
-  width: 100%;
-  background-color: #6f4d38;
+.button-next,
+.button-previous {
+  min-width: 130px;
+  height: 40px;
   color: var(--main-color);
-  text-align: center;
-  padding: 20px 0;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color: #6f4d38;
+  margin: 0.3rem;
+}
+.button-next:hover {
+  border-radius: 5px;
+  padding-right: 24px;
+  padding-left: 8px;
+}
+.button-next:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.button-next:after {
+  content: "\00BB";
+  position: absolute;
+  opacity: 0;
   font-size: 20px;
-
-  margin-top: -22%;
-  margin-bottom: 2%;
-  border-radius: 10px 10px 0 0;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
 }
-
-.prix {
-  margin-top: -3%;
+.button-previous:hover {
+  border-radius: 5px;
+  padding-left: 24px;
+  padding-right: 8px;
 }
-
-.img-popup-restaurant {
+.button-previous:hover:before {
+  opacity: 1;
+  left: 10px;
+}
+.button-previous:before {
+  content: "\00AB";
   position: absolute;
-  width: 6rem;
-  top: 15%;
-  right: 15%;
-  transform: rotate(30deg);
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  left: -20px;
+  transition: 0.4s;
+}
+.description {
+  overflow: scroll;
+  max-height: 150px;
+  min-height: 50px;
 }
 
-.img-popup-hotel {
-  position: absolute;
-  width: 4.5rem;
-  top: 15%;
-  right: 15%;
+.light {
+  background-color: var(--secondary-color);
+}
+
+.dark {
+  background-color: var(--secondary-color-dark);
 }

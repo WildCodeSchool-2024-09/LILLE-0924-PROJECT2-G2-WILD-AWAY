@@ -18,7 +18,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid var(--secondary-color);
   height: 28rem;
   width: 30rem;
   margin: 10px 10px 20px 10px;
@@ -47,7 +46,7 @@
 }
 
 .input {
-  width: 12%;
+  width: 100%;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
@@ -68,4 +67,14 @@
   padding: 6px;
   border-color: var(--secondary-color);
   box-shadow: 0 0 2px var(--secondary-color);
+}
+
+.light {
+  box-shadow: 0 0 10px white;
+  border: 2px solid var(--secondary-color);
+}
+
+.dark {
+  box-shadow: 0 0 10px var(--secondary-color-dark);
+  border: 2px solid var(--secondary-color-dark);
 }

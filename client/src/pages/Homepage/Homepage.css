@@ -45,3 +45,11 @@ body {
   width: 30%;
   min-height: 270px;
 }
+
+.light {
+  background-color: var(--secondary-color);
+}
+
+.dark {
+  background-color: var(--secondary-color-dark);
+}

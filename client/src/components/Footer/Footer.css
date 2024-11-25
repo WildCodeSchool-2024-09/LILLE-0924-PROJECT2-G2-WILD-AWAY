@@ -9,6 +9,14 @@ footer {
   padding: 1%;
 }
 
+.light {
+  background-color: var(--secondary-color);
+}
+
+.dark {
+  background-color: var(--secondary-color-dark);
+}
+
 .logo {
   width: 1rem;
   height: 1rem;
