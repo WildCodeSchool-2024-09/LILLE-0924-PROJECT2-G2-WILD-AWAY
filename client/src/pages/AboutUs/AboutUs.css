@@ -43,6 +43,7 @@
 
 .contact-us {
   margin: 20px;
+  margin-bottom: 0;
 }
 
 .input {
@@ -70,7 +71,13 @@
 }
 
 .dark {
-  /* box-shadow: 0 0 10px var(--secondary-color-dark); */
-  /* border: 2px solid var(--secondary-color-dark); */
+  background: var(--main-color);
+}
+
+.container.dark {
+  background: var(--main-color-dark);
+}
+
+.container.light {
   background: var(--main-color);
 }

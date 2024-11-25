@@ -69,53 +69,55 @@ function AboutUs() {
   const theme = themeContext ? themeContext.theme : "default-theme";
   return (
     <>
-      <h1 className="title">La dream team</h1>
-      <div className="dream-team">
-        {dreamTeam.map((dreamteam) => (
-          <section key={dreamteam.name} className={`container ${theme}`}>
-            <h2 className="name">{dreamteam.name}</h2>
-            {dreamteam.image}
-            <p className="card-container">Âge : {dreamteam.age}</p>
-            <p className="card-container">Hobbie : {dreamteam.hobbie}</p>
-            <p className="card-container">{dreamteam.description}</p>
-          </section>
-        ))}
-      </div>
-      <h1 className="title">Nous contacter</h1>
-      <section className="contact-us">
-        <form action="" className="form-contact">
-          <label htmlFor="last-name">Nom :</label>
-          <input
-            name="last-name"
-            className="input"
-            type="text"
-            placeholder="Nom"
-          />
+      <main className={`about-us-main ${theme}`}>
+        <h1 className="title">La dream team</h1>
+        <div className="dream-team">
+          {dreamTeam.map((dreamteam) => (
+            <section key={dreamteam.name} className={`container ${theme}`}>
+              <h2 className="name">{dreamteam.name}</h2>
+              {dreamteam.image}
+              <p className="card-container">Âge : {dreamteam.age}</p>
+              <p className="card-container">Hobbie : {dreamteam.hobbie}</p>
+              <p className="card-container">{dreamteam.description}</p>
+            </section>
+          ))}
+        </div>
+        <h1 className="title">Nous contacter</h1>
+        <section className="contact-us">
+          <form action="" className="form-contact">
+            <label htmlFor="last-name">Nom :</label>
+            <input
+              name="last-name"
+              className="input"
+              type="text"
+              placeholder="Nom"
+            />
 
-          <label htmlFor="first-name">Prénom :</label>
-          <input
-            name="first-name"
-            className="input"
-            type="text"
-            placeholder="Prénom"
-          />
+            <label htmlFor="first-name">Prénom :</label>
+            <input
+              name="first-name"
+              className="input"
+              type="text"
+              placeholder="Prénom"
+            />
 
-          <label htmlFor="email">Email :</label>
-          <input className="input" type="email" placeholder="Email" />
+            <label htmlFor="email">Email :</label>
+            <input className="input" type="email" placeholder="Email" />
 
-          <label htmlFor="contact">Raison de la demande de contact :</label>
-          <input
-            name="contact"
-            className="input contact"
-            type="text"
-            placeholder="Taper votre message ici"
-          />
+            <label htmlFor="contact">Raison de la demande de contact :</label>
+            <input
+              name="contact"
+              className="input contact"
+              type="text"
+              placeholder="Taper votre message ici"
+            />
 
-          <button type="button" className="button-next">
-            Envoyer
-          </button>
-        </form>
-      </section>
+            <button type="button" className="button-next">
+              Envoyer
+            </button>
+          </form>
+        </section>
+      </main>
     </>
   );
 }
