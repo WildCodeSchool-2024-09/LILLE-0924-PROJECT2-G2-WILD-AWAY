@@ -5,17 +5,22 @@ function Footer() {
     <footer>
       <section className="footer">
         <div className="reseau">
-          <img src="/twitter.png" className="logo" alt="logo de Twitter" />{" "}
-          @WildAway
-          <img src="/instagram.png" className="logo" alt="logo de Instagram" />{" "}
-          @WildAway
+          <div className="twitter">
+            <img src="/twitter.png" className="logo" alt="logo de Twitter" />{" "}
+            @WildAway <br />
+          </div>
+          <div className="instagram">
+            <img
+              src="/instagram.png"
+              className="logo"
+              alt="logo de Instagram"
+            />{" "}
+            @WildAway
+          </div>
         </div>
         <div className="contact">
           <p>© WildAway 2024 </p>
-        </div>
-        <div>
-          {" "}
-          <p>Nous contacter</p>
+          <p className="contact-us">Nous contacter</p>
         </div>
       </section>
     </footer>

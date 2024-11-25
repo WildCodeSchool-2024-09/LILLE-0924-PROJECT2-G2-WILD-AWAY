@@ -21,3 +21,24 @@ section {
   align-items: center;
   justify-content: space-around;
 }
+
+@media screen and (max-width: 480px) {
+  .footer {
+    height: 7rem;
+    font-size: 1.1rem;
+  }
+
+  .reseau {
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+  }
+
+  .contact {
+    height: 1.5rem;
+  }
+
+  .contact-us {
+    margin-left: 1rem;
+  }
+}
