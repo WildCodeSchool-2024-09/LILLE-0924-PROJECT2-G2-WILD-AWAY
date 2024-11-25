@@ -52,7 +52,7 @@ function MapElement() {
                           outline: "none",
                         },
                         hover: {
-                          fill: "#A306B6",
+                          fill: "#36736e",
                           outline: "none",
                         },
                         pressed: {
