@@ -22,6 +22,22 @@ section {
   justify-content: space-around;
 }
 
+@media screen and (max-width: 480px) {
+  .footer {
+    height: 5rem;
+  }
+
+  .reseau {
+    display: flex;
+    flex-direction: column;
+    width: 5rem;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+  
 .light {
   background-color: var(--secondary-color);
 }

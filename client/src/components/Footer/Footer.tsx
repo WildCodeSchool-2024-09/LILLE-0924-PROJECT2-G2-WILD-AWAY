@@ -10,7 +10,7 @@ function Footer() {
       <section>
         <div className="reseau">
           <img src="/twitter.png" className="logo" alt="logo de Twitter" />{" "}
-          @WildAway
+          @WildAway <br />
           <img src="/instagram.png" className="logo" alt="logo de Instagram" />{" "}
           @WildAway
         </div>
