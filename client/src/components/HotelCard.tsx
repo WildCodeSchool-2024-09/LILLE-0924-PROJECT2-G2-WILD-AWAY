@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { UseTheme } from "../services/ThemeContext";
 
 interface BookingData {
   hotels: {
@@ -29,9 +30,11 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
     );
   };
 
+  const themeContext = UseTheme();
+  const theme = themeContext ? themeContext.theme : "default-theme";
   return (
     <>
-      <article className="card">
+      <article className={`card ${theme}`}>
         <img
           src={currentHotel.image_url}
           alt={currentHotel.name}
@@ -71,23 +74,22 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
 
       {popupVisible && (
         <div className="popup-overlay">
-          <div className="hotel-popup">
-            <div className="title-color">
-              <h2>Reservez votre séjour !</h2>
-            </div>
+          <div className="popup-container">
+            <h2 className="popup-title">Reservez votre séjour !</h2>
+
             <img className="img-popup-hotel" src="../hotel-popup.png" alt="" />
 
-            <label className="personNumber-container" htmlFor="personNumber">
-              Pour combien de personnes ? :
-              <input type="number" className="personNumber" />
-            </label>
-            <label htmlFor="vacationDate">
-              Pour quelle dates ? :{" "}
-              <input type="date" className="vacationDate" />
-              au
-              <input type="date" className="vacationDate" />
-            </label>
-            <p>Prix :</p>
+            <input
+              type="number"
+              className="popup-input"
+              placeholder="Pour combien de personnes ?"
+            />
+
+            <input type="date" className="popup-input" />
+            <p className="popup-text">au</p>
+            <input type="date" className="popup-input" />
+
+            <p className="price">Prix :</p>
             <button
               className="button-reservation"
               type="button"

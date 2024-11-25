@@ -1,10 +1,10 @@
-.footer {
-  background-color: #36736e;
+footer {
+  background-color: var(--secondary-color);
   width: 98%;
   position: relative;
   bottom: 0;
   height: 2.5rem;
-  color: #e8e1d4;
+  color: var(--main-color);
   font-size: 1rem;
   padding: 1%;
 }
@@ -20,4 +20,12 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.light {
+  background-color: var(--secondary-color);
+}
+
+.dark {
+  background-color: var(--secondary-color-dark);
 }

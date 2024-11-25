@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
 html {
-  background-color: #e8e1d4;
+  background-color: var(--main-color);
 }
 
 .booking-main {
@@ -17,11 +17,10 @@ html {
 h1 {
   text-align: center;
   padding: 1rem;
-  margin: 1rem;
-  text-shadow: 2px 2px #36736e;
+  margin: 0;
+  text-shadow: 2px 2px var(--secondary-color);
   border-radius: 10px;
 }
-
 .card {
   width: 18rem;
   height: 80%;
@@ -29,7 +28,7 @@ h1 {
   margin: 2rem;
   padding: 1rem;
   box-shadow: 5px 5px 10px 2px #153a37;
-  background-color: #36736e;
+  background-color: var(--secondary-color);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -37,30 +36,18 @@ h1 {
   align-items: center;
   min-height: 510px;
 }
-
 .booking-card-img {
   border-radius: 100px;
   padding: 0.3rem;
-  background-color: #e8e1d4;
+  background-color: var(--main-color);
   height: 200px;
   width: 200px;
 }
-
-.hotel-popup {
+/* POPUP SECTION */
+.popup-overlay {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  position: absolute;
-  top: 10%;
-  left: 30%;
-  width: 40%;
-  height: 70%;
-  color: black;
-}
-
-.popup-overlay {
+  align-items: inherit;
   position: fixed;
   top: 0;
   left: 0;
@@ -70,40 +57,67 @@ h1 {
   backdrop-filter: blur(8px);
   z-index: 999;
 }
-
-.restaurant-popup {
+.popup-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background-color: white;
-  position: absolute;
-  top: 10%;
-  left: 30%;
-  width: 40%;
-  height: 70%;
+  position: fixed;
   color: black;
 }
-
-.popup-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+.popup-input {
+  width: 70%;
+  margin: 1rem;
+  text-align: center;
+  height: 2rem;
 }
-
-.vacationDate {
-  margin: 2rem;
-  width: 90%;
+.popup-title {
+  margin: 0;
+  padding: 2rem;
+  background-image: linear-gradient(135deg, #f8b500 50%, #fceabb 90%);
 }
-
-.personNumber {
-  margin: 2rem;
-  width: 10%;
+.popup-text {
   font-size: 1rem;
 }
-
+.price {
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.img-popup-restaurant {
+  width: 5rem;
+  transform: rotate(30deg);
+  margin: 1rem;
+}
+.img-popup-hotel {
+  width: 5rem;
+  margin: 1rem;
+}
+.button-reservation {
+  margin: 1rem;
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-size: 120% auto;
+  background-image: linear-gradient(135deg, #f8b500 50%, #fceabb 90%);
+}
+.button-reservation:hover {
+  background-position: right center;
+}
+.button-reservation:active {
+  top: 2px;
+}
+/* POPUP SECTION */
 .slider {
   height: 90%;
   margin: auto;
@@ -113,7 +127,6 @@ h1 {
   place-items: center;
   overflow: hidden;
 }
-
 .slide-track {
   display: flex;
   flex-direction: column;
@@ -121,7 +134,6 @@ h1 {
   animation: scroll 40s linear infinite;
   overflow: hidden;
 }
-
 @keyframes scroll {
   0% {
     transform: translateY(0);
@@ -130,20 +142,18 @@ h1 {
     transform: translateY(calc(-250px * 3));
   }
 }
-
 .slide {
-  height: 200px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
+  max-width: 280px;
   display: flex;
   align-items: center;
   padding: 15px;
 }
-
 .img-slide {
   width: 100%;
   padding: 1rem;
 }
-
 .sliders {
   height: 90%;
   margin: auto;
@@ -153,7 +163,6 @@ h1 {
   place-items: center;
   overflow: hidden;
 }
-
 .slides-track {
   display: flex;
   flex-direction: column;
@@ -161,7 +170,6 @@ h1 {
   animation: scrolls 40s linear infinite;
   overflow: hidden;
 }
-
 @keyframes scrolls {
   0% {
     transform: translateY(calc(-250px * 3));
@@ -170,65 +178,19 @@ h1 {
     transform: translateY(0);
   }
 }
-
 .slides {
-  height: 200px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
+  max-width: 280px;
   display: flex;
   align-items: center;
   padding: 15px;
 }
-
-.vacationDate-container {
-  padding-right: 11%;
-}
-
-.vacationHour {
-  width: 30%;
-  margin: 2rem;
-}
-
-.vacationHour-container {
-  padding-right: 15%;
-}
-
-.title-color {
-  width: 100%;
-  background-image: linear-gradient(135deg, #f8b500 50%, #fceabb 90%);
-  color: #e8e1d4;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 20px;
-  margin-left: 0;
-  margin-top: -20%;
-  margin-bottom: 2%;
-  border-radius: 10px 10px 0 0;
-}
-
-.prix {
-  margin-top: -3%;
-}
-
-.img-popup-restaurant {
-  position: absolute;
-  width: 5rem;
-  top: 80%;
-  right: 75%;
-  transform: rotate(30deg);
-}
-
-.img-popup-hotel {
-  position: absolute;
-  width: 4.5rem;
-  top: 15%;
-  right: 15%;
-}
-
 .button-next,
 .button-previous {
   min-width: 130px;
   height: 40px;
-  color: #e8e1d4;
+  color: var(--main-color);
   padding: 5px 10px;
   font-weight: bold;
   cursor: pointer;
@@ -261,7 +223,6 @@ h1 {
   right: -20px;
   transition: 0.4s;
 }
-
 .button-previous:hover {
   border-radius: 5px;
   padding-left: 24px;
@@ -281,42 +242,33 @@ h1 {
   left: -20px;
   transition: 0.4s;
 }
-
 .description {
   overflow: scroll;
   max-height: 150px;
   min-height: 50px;
 }
 
-.button-reservation {
-  background-color: #6f4d38;
-  color: #e8e1d4;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin: 1rem;
-  cursor: pointer;
+.light {
+  background-color: var(--secondary-color);
 }
 
-.button-reservation {
-  min-width: 130px;
-  height: 40px;
-  color: #fff;
-  padding: 5px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 5px;
-  border: none;
-  background-size: 120% auto;
-  background-image: linear-gradient(135deg, #f8b500 50%, #fceabb 90%);
+.dark {
+  background-color: var(--secondary-color-dark);
 }
-.button-reservation:hover {
-  background-position: right center;
+
+.light.booking-main {
+  background-color: var(--main-color);
 }
-.button-reservation:active {
-  top: 2px;
+
+.dark.booking-main {
+  background-color: var(--main-color-dark);
+}
+
+main.light {
+  background-color: var(--main-color);
+}
+
+main.dark {
+  background-color: var(--main-color-dark);
+  color: white;
 }
