@@ -90,7 +90,7 @@ const Markers: MapInfo[] = [
     coordinates: [-66.87919, 10.48801],
   },
   {
-    id: 8,
+    id: 15,
     markerOffSet: -5.2,
     name: "Oulan-Bator",
     coordinates: [106.917, 47.9167],
