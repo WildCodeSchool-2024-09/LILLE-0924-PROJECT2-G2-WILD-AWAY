@@ -61,6 +61,7 @@ body {
 
 .light.homepage-main {
   background-color: var(--main-color);
+}
 
 @media only screen and (max-device-width: 480px) {
   .homepage-title {
@@ -89,5 +90,4 @@ body {
     height: 125px;
     width: 125px;
   }
-
 }

@@ -1,8 +1,23 @@
 import "./NavBar.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { UseTheme } from "../../services/ThemeContext";
+import { FaSearch } from "react-icons/fa";
+import { useState } from "react";
+import Markers from "../Markers";
 
 function NavBar() {
+  const navigate = useNavigate();
+
+  const [input, setInput] = useState("");
+
+  const handleChange = (value: string) => {
+    setInput(value);
+  };
+
+  const results = Markers.filter((city) => {
+    return city.name.toLowerCase().includes(input.toLowerCase());
+  });
+
   const themeContext = UseTheme();
   if (!themeContext) {
     return null;
@@ -23,6 +38,36 @@ function NavBar() {
       <Link to="/" className="links-nav">
         Home{" "}
       </Link>
+      <div className="searchbar-container">
+        <div className={`input-wrapper ${theme}`}>
+          <FaSearch id="search-icon" />
+          <input
+            className={theme}
+            placeholder="Chercher une ville..."
+            value={input}
+            onChange={(e) => handleChange(e.target.value)}
+          />
+        </div>
+      </div>
+      {input ? (
+        <div className={`results-list ${theme}`}>
+          {results.map((result) => (
+            <div
+              className="dropdown"
+              onClick={() => {
+                navigate(`/booking/${result.id}`);
+                setInput("");
+              }}
+              key={result.name}
+              onKeyDown={() => navigate(`/booking/${result.id}`)}
+            >
+              {result.name}
+            </div>
+          ))}
+        </div>
+      ) : (
+        ""
+      )}
       <Link to="about-us" className="links-nav">
         {" "}
         About us{" "}
