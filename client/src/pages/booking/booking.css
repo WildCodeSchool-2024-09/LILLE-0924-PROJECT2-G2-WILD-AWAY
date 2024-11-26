@@ -248,6 +248,28 @@ h1 {
   min-height: 50px;
 }
 
+@media only screen and (max-width: 480px) {
+  .slider,
+  .sliders {
+    display: none;
+  }
+
+  .booking-main {
+    display: initial;
+  }
+
+  .card {
+    margin: 1rem;
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .description {
+    height: 130px;
+    min-height: none;
+    max-height: none;
+  }
+
 .light {
   background-color: var(--secondary-color);
 }
@@ -271,4 +293,5 @@ main.light {
 main.dark {
   background-color: var(--main-color-dark);
   color: white;
+
 }
