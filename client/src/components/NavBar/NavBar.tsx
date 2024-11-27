@@ -9,6 +9,7 @@ function NavBar() {
   const navigate = useNavigate();
 
   const [input, setInput] = useState("");
+  const [selection, setSelection] = useState(0);
 
   const handleChange = (value: string) => {
     setInput(value);
@@ -32,6 +33,23 @@ function NavBar() {
     }
   };
 
+  interface KeyboardEvent {
+    key: string;
+  }
+
+  const handleKeyEnter = (event: KeyboardEvent) => {
+    if (event.key === "Enter") {
+      navigate(`/booking/${results[selection].id}`);
+      setInput("");
+    } else if (event.key === "ArrowDown") {
+      if (selection === -1) {
+        setSelection(0);
+      } else if (selection < results.length - 1) {
+        setSelection(selection + 1);
+      }
+    }
+  };
+
   return (
     <nav className={theme}>
       <img src="/logo.png" className="logo-nav" alt="logo de Wild Away" />
@@ -46,6 +64,7 @@ function NavBar() {
             placeholder="Chercher une ville..."
             value={input}
             onChange={(e) => handleChange(e.target.value)}
+            onKeyDown={handleKeyEnter}
           />
         </div>
       </div>
