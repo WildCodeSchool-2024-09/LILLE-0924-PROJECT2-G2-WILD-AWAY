@@ -44,7 +44,12 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
         <div className="description">
           <h2>{currentRestaurant.name}</h2>
           <p className="card-description">{currentRestaurant.description}</p>
-          <p>{currentRestaurant.average_price_per_person}€</p>
+          <p>
+            <u>
+              <strong>Prix moyen</strong>
+            </u>{" "}
+            : {currentRestaurant.average_price_per_person}€
+          </p>
         </div>
 
         <div className="navigation-buttons">
@@ -74,7 +79,7 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
 
         {popupVisible && (
           <div className="popup-overlay">
-            <div className="popup-container">
+            <div className={`popup-container ${theme}`}>
               <h2 className="popup-title">Reservez votre séjour ! </h2>
 
               <img

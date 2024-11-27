@@ -44,7 +44,12 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
         <div className="description">
           <h2>{currentHotel.name}</h2>
           <p className="card-description">{currentHotel.description}</p>
-          <p>{currentHotel.price_per_night}€</p>
+          <p className="card-price">
+            <u>
+              <strong>Prix moyen</strong>
+            </u>{" "}
+            : {currentHotel.price_per_night}€
+          </p>
         </div>
 
         <div className="navigation-buttons">
@@ -74,7 +79,7 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
 
       {popupVisible && (
         <div className="popup-overlay">
-          <div className="popup-container">
+          <div className={`popup-container ${theme}`}>
             <h2 className="popup-title">Reservez votre séjour !</h2>
 
             <img className="img-popup-hotel" src="../hotel-popup.png" alt="" />

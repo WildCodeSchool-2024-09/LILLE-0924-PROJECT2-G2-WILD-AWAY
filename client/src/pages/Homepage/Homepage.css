@@ -100,3 +100,7 @@ body {
     width: 125px;
   }
 }
+
+.marker {
+  transition: 0.8s;
+}

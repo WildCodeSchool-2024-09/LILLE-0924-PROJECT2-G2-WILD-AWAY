@@ -66,11 +66,23 @@ h1 {
   position: fixed;
   color: black;
 }
+
+.popup-container.dark {
+  background-color: var(--main-color-dark);
+  color: white;
+}
+
+.popup-container.light {
+  background-color: var(--main-color);
+}
+
 .popup-input {
   width: 70%;
   margin: 1rem;
   text-align: center;
   height: 2rem;
+  border: 1px solid;
+  border-radius: 15px;
 }
 .popup-title {
   margin: 0;
@@ -89,6 +101,8 @@ h1 {
   width: 5rem;
   transform: rotate(30deg);
   margin: 1rem;
+  background-color: #fceabb;
+  border-radius: 50%;
 }
 .img-popup-hotel {
   width: 5rem;
@@ -204,6 +218,7 @@ h1 {
   background-color: #6f4d38;
   margin: 0.3rem;
 }
+
 .button-next:hover {
   border-radius: 5px;
   padding-right: 24px;

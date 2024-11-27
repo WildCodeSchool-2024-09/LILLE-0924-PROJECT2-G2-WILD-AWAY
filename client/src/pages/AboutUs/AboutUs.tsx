@@ -88,7 +88,7 @@ function AboutUs() {
             <label htmlFor="last-name">Nom :</label>
             <input
               name="last-name"
-              className="input"
+              className="about-input"
               type="text"
               placeholder="Nom"
             />
@@ -96,23 +96,23 @@ function AboutUs() {
             <label htmlFor="first-name">Prénom :</label>
             <input
               name="first-name"
-              className="input"
+              className="about-input"
               type="text"
               placeholder="Prénom"
             />
 
             <label htmlFor="email">Email :</label>
-            <input className="input" type="email" placeholder="Email" />
+            <input className="about-input" type="email" placeholder="Email" />
 
             <label htmlFor="contact">Raison de la demande de contact :</label>
             <input
               name="contact"
-              className="input contact"
+              className="about-input about-contact"
               type="text"
               placeholder="Taper votre message ici"
             />
 
-            <button type="button" className="button-next">
+            <button type="submit" className="button-next">
               Envoyer
             </button>
           </form>
