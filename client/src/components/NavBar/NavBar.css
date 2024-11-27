@@ -34,8 +34,8 @@ a {
 }
 
 .img-darkMode {
-  width: 3%;
-  height: 2%;
+  height: 50px;
+  width: 50px;
   margin-top: 1rem;
   cursor: pointer;
 }
