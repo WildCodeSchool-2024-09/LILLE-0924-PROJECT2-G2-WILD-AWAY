@@ -134,6 +134,12 @@ input.light,
   box-shadow: 0px 0px 8px black;
 }
 
+@media screen and (max-width: 650px) {
+  .input-wrapper {
+    display: none;
+  }
+}
+
 .links-nav:hover {
   text-decoration: underline;
 }
