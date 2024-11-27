@@ -7,7 +7,7 @@ import Markers from "../Markers";
 
 function NavBar() {
   const navigate = useNavigate();
-
+  const [rotation, setRotation] = useState(0);
   const [input, setInput] = useState("");
   const [selection, setSelection] = useState(0);
 
@@ -26,6 +26,7 @@ function NavBar() {
   const { theme, setTheme } = themeContext;
 
   const handleDarkMode = () => {
+    setRotation((prevRotation) => prevRotation - 180);
     if (theme === "light") {
       setTheme("dark");
     } else {
@@ -52,7 +53,10 @@ function NavBar() {
 
   return (
     <nav className={theme}>
-      <img src="/logo.png" className="logo-nav" alt="logo de Wild Away" />
+      <Link to="/" className="links-nav">
+        <img src="/logo.png" className="logo-nav" alt="logo de Wild Away" />
+      </Link>
+
       <Link to="/" className="links-nav">
         Home{" "}
       </Link>
@@ -97,6 +101,11 @@ function NavBar() {
         className="img-darkMode"
         onClick={handleDarkMode}
         onKeyUp={handleDarkMode}
+        style={{
+          cursor: "pointer",
+          transform: `rotate(${rotation}deg)`,
+          transition: "transform 1s ease",
+        }}
       />
     </nav>
   );

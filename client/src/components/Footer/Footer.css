@@ -22,8 +22,16 @@ section {
   justify-content: space-around;
 }
 
+.light {
+  background-color: var(--secondary-color);
+}
+
+.dark {
+  background-color: var(--secondary-color-dark);
+}
+
 @media screen and (max-width: 480px) {
-  .footer {
+  footer {
     height: 5rem;
   }
 
@@ -37,12 +45,4 @@ section {
     display: flex;
     align-items: center;
   }
-}
-
-.light {
-  background-color: var(--secondary-color);
-}
-
-.dark {
-  background-color: var(--secondary-color-dark);
 }
