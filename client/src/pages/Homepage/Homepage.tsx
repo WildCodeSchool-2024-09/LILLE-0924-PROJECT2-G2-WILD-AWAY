@@ -1,11 +1,16 @@
 import MapElement from "../../components/Map";
 import "./Homepage.css";
 import { UseTheme } from "../../services/ThemeContext";
+import { useState } from "react";
 
 function Homepage() {
   const themeContext = UseTheme();
   const theme = themeContext ? themeContext.theme : "light";
   // const setTheme = themeContext ? themeContext.theme : "defaultTheme";
+  const [ArrowScroll,setArrowScroll] = useState("arrow");
+  document.addEventListener("scroll",()=>{
+    setArrowScroll(`${ArrowScroll} arrow-scroll`) ;
+  })
 
   return (
     <main className={`homepage-main ${theme}`}>
@@ -38,6 +43,7 @@ function Homepage() {
           </p>
         </div>
       </section>
+      <img className={ArrowScroll} src="/arrowklasik.gif" alt="" />
       <h2 className="homepage-subtitle">
         Sélectionnne la destination de tes rêves en cliquant sur un pays !
       </h2>

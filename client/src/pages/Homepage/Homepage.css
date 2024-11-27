@@ -62,6 +62,15 @@ body {
 .light.homepage-main {
   background-color: var(--main-color);
 }
+.arrow {
+  position: fixed;
+  width: 5%;
+  left: 48%;
+  top: 80%;
+}
+.arrow-scroll {
+  display: none;
+}
 
 @media only screen and (max-device-width: 480px) {
   .homepage-title {
