@@ -10,6 +10,7 @@ nav {
   font-size: 1.1rem;
   color: var(--main-color);
   justify-content: space-between;
+  align-items: center;
   padding-right: 1%;
   padding-left: 1%;
   height: 10%;
@@ -36,7 +37,6 @@ a {
 .img-darkMode {
   height: 50px;
   width: 50px;
-  margin-top: 1rem;
   cursor: pointer;
 }
 
@@ -142,4 +142,18 @@ input.light,
 
 .links-nav:hover {
   text-decoration: underline;
+}
+@media screen and (max-width: 480px) {
+  .links-nav {
+    margin-right: 0;
+    font-size: 1.2rem;
+  }
+  .img-darkMode {
+    width: 40px;
+    height: 40px;
+  }
+  .logo-nav {
+    width: 6.5rem;
+    height: 4rem;
+  }
 }
