@@ -269,6 +269,7 @@ h1 {
     min-height: none;
     max-height: none;
   }
+}
 
 .light {
   background-color: var(--secondary-color);
@@ -293,5 +294,4 @@ main.light {
 main.dark {
   background-color: var(--main-color-dark);
   color: white;
-
 }
