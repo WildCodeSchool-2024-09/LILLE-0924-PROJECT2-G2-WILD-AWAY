@@ -35,7 +35,10 @@ function NavBar() {
 
   return (
     <nav className={theme}>
-      <img src="/logo.png" className="logo-nav" alt="logo de Wild Away" />
+      <Link to="/" className="links-nav">
+        <img src="/logo.png" className="logo-nav" alt="logo de Wild Away" />
+      </Link>
+
       <Link to="/" className="links-nav">
         Home{" "}
       </Link>

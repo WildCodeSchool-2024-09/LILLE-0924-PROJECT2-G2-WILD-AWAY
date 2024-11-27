@@ -46,16 +46,21 @@
   margin-bottom: 0;
 }
 
-.input {
-  width: 100%;
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-input {
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
   border: 1px solid var(--secondary-color);
 }
 
-.input-contact {
-  width: 30%;
+.about-contact {
+  width: 83%;
   padding: 40px;
   border-radius: 10px;
   border: 1px solid var(--secondary-color);

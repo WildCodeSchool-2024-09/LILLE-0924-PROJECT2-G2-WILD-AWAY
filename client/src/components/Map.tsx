@@ -16,6 +16,7 @@ function MapElement() {
     navigate(`/booking/${cityId}`);
   };
   const [content, setContent] = useState("");
+  const [hoveredMarker, setHoveredMarker] = useState<number | null>(null);
   const themeContext = UseTheme();
   const theme = themeContext ? themeContext.theme : "light";
   return (
@@ -69,12 +70,16 @@ function MapElement() {
               {Markers.map(({ name, coordinates, markerOffSet, id }) => (
                 <Marker key={name} coordinates={coordinates}>
                   <circle
-                    r={4}
+                    r={hoveredMarker === id ? 8 : 4}
                     fill="#F00"
                     stroke="#fff"
                     strokeWidth={0.1}
                     onClick={() => handlePointClick(id)}
                     onKeyDown={() => handlePointClick(id)}
+                    onMouseOver={() => setHoveredMarker(id)}
+                    onFocus={() => setHoveredMarker(id)}
+                    onMouseLeave={() => setHoveredMarker(null)}
+                    className="marker"
                   />
                   <text
                     textAnchor="middle"
