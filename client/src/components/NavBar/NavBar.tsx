@@ -1,8 +1,8 @@
 import "./NavBar.css";
+import { useState } from "react";
+import { FaSearch } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { UseTheme } from "../../services/ThemeContext";
-import { FaSearch } from "react-icons/fa";
-import { useState } from "react";
 import Markers from "../Markers";
 
 function NavBar() {

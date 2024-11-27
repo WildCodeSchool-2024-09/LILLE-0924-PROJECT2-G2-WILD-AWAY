@@ -37,7 +37,8 @@ section {
     display: flex;
     align-items: center;
   }
-  
+}
+
 .light {
   background-color: var(--secondary-color);
 }
