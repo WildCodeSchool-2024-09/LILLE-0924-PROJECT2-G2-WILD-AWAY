@@ -39,7 +39,7 @@ const dreamTeam: DreamTeamProps[] = [
   {
     name: "Timothey",
     age: 23,
-    hobbie: "Rédiger des poèmes pour corriger des quêtes",
+    hobbie: "Rédige des poèmes pour corriger des quêtes",
     image: (
       <img
         src="./public/imgTimothey.png"
