@@ -1,10 +1,17 @@
 import "./App.css";
-import AboutUs from "./pages/AboutUs/AboutUs";
+import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
+import NavBar from "./components/NavBar/NavBar";
+import { ThemeProvider } from "./services/ThemeContext";
 
 function App() {
   return (
     <>
-      <AboutUs />
+      <ThemeProvider>
+        <NavBar />
+        <Outlet />
+        <Footer />
+      </ThemeProvider>
     </>
   );
 }

@@ -1,0 +1,48 @@
+footer {
+  background-color: var(--secondary-color);
+  width: 98%;
+  position: relative;
+  bottom: 0;
+  height: 2.5rem;
+  color: var(--main-color);
+  font-size: 1rem;
+  padding: 1%;
+}
+
+.logo {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.2rem;
+  margin-left: 0.3rem;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.light {
+  background-color: var(--secondary-color);
+}
+
+.dark {
+  background-color: var(--secondary-color-dark);
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    height: 5rem;
+  }
+
+  .reseau {
+    display: flex;
+    flex-direction: column;
+    width: 5rem;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,18 +1,20 @@
-import express from "express";
+import express, { type Request, type Response } from "express";
+import data from "../public/data.json";
 
 const router = express.Router();
 
-/* ************************************************************************* */
-// Define Your API Routes Here
-/* ************************************************************************* */
+router.get("/api/booking", (req: Request, res: Response) => {
+  res.json(data);
+});
 
-// Define item-related routes
-import itemActions from "./modules/item/itemActions";
+router.get("/api/booking/:id", (req: Request, res: Response) => {
+  const { id } = req.params;
 
-router.get("/api/items", itemActions.browse);
-router.get("/api/items/:id", itemActions.read);
-router.post("/api/items", itemActions.add);
+  const result = data.items.filter(
+    (item) => item.id === Number.parseInt(id, 10),
+  );
 
-/* ************************************************************************* */
+  res.json(result[0] || null);
+});
 
 export default router;

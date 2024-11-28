@@ -1,9 +1,13 @@
-* {
-  padding: 0;
-  margin: 0;
+.img-dream-team {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 15px;
 }
 
-.dreamTeam {
+.dream-team {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -11,22 +15,15 @@
 }
 
 .container {
-  border: 2px solid #36736e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 28rem;
   width: 30rem;
   margin: 10px 10px 20px 10px;
   padding: 10px;
   border-radius: 20px;
-  box-shadow: 0 0 10px #36736e;
-}
-
-.imgDreamTeam {
-  width: 20rem;
-  height: 20rem;
-  border-radius: 15px;
-  margin: 10px;
-  display: flex;
-  justify-self: center;
+  box-shadow: 0 0 10px var(--secondary-color);
 }
 
 .title {
@@ -39,28 +36,34 @@
   text-align: center;
 }
 
-.cardContainer {
+.card-container {
   font-size: 1.1rem;
   line-height: 1.5rem;
 }
 
-.contactUs {
+.contact-us {
   margin: 20px;
+  margin-bottom: 0;
 }
 
-.input {
-  width: 12%;
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-input {
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  border: 1px solid #36736e;
+  border: 1px solid var(--secondary-color);
 }
 
-.inputContact {
-  width: 30%;
+.about-contact {
+  width: 83%;
   padding: 40px;
   border-radius: 10px;
-  border: 1px solid #36736e;
+  border: 1px solid var(--secondary-color);
   margin-bottom: 20px;
 }
 
@@ -68,6 +71,29 @@
   border-radius: 10px;
   width: 6%;
   padding: 6px;
-  border-color: #36736e;
-  box-shadow: 0 0 2px #36736e;
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 2px var(--secondary-color);
+}
+
+.dark {
+  background: var(--main-color);
+}
+
+.container.dark {
+  background: var(--main-color-dark);
+}
+
+.container.light {
+  background: var(--main-color);
+}
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .img-dream-team {
+    width: 90%;
+    height: 220px;
+  }
 }
