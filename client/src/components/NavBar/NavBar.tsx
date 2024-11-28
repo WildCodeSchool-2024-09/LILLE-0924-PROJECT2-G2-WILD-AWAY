@@ -7,8 +7,9 @@ import Markers from "../Markers";
 
 function NavBar() {
   const navigate = useNavigate();
-
+  const [rotation, setRotation] = useState(0);
   const [input, setInput] = useState("");
+  const [selection, setSelection] = useState(0);
 
   const handleChange = (value: string) => {
     setInput(value);
@@ -25,10 +26,28 @@ function NavBar() {
   const { theme, setTheme } = themeContext;
 
   const handleDarkMode = () => {
+    setRotation((prevRotation) => prevRotation - 180);
     if (theme === "light") {
       setTheme("dark");
     } else {
       setTheme("light");
+    }
+  };
+
+  interface KeyboardEvent {
+    key: string;
+  }
+
+  const handleKeyEnter = (event: KeyboardEvent) => {
+    if (event.key === "Enter") {
+      navigate(`/booking/${results[selection].id}`);
+      setInput("");
+    } else if (event.key === "ArrowDown") {
+      if (selection === -1) {
+        setSelection(0);
+      } else if (selection < results.length - 1) {
+        setSelection(selection + 1);
+      }
     }
   };
 
@@ -49,6 +68,7 @@ function NavBar() {
             placeholder="Chercher une ville..."
             value={input}
             onChange={(e) => handleChange(e.target.value)}
+            onKeyDown={handleKeyEnter}
           />
         </div>
       </div>
@@ -81,6 +101,11 @@ function NavBar() {
         className="img-darkMode"
         onClick={handleDarkMode}
         onKeyUp={handleDarkMode}
+        style={{
+          cursor: "pointer",
+          transform: `rotate(${rotation}deg)`,
+          transition: "transform 1s ease",
+        }}
       />
     </nav>
   );
