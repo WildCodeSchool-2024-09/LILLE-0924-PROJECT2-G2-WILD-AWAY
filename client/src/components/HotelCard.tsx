@@ -94,13 +94,12 @@ function HotelCard({ bookingData }: { bookingData: BookingData }) {
             <p className="popup-text">au</p>
             <input type="date" className="popup-input" />
 
-            <p className="price">Prix :</p>
             <button
               className="button-reservation"
               type="button"
               onClick={handleCLickPopup}
             >
-              Valider
+              Accéder au paiement
             </button>
           </div>
         </div>

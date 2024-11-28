@@ -98,14 +98,12 @@ function RestaurantCard({ bookingData }: { bookingData: BookingData }) {
 
               <input type="time" className="popup-input" />
 
-              <p className="price">Prix :</p>
-
               <button
                 className="button-reservation"
                 type="button"
                 onClick={handleCLickPopup}
               >
-                Valider
+                Accéder au paiement
               </button>
             </div>
           </div>
